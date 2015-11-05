@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<center><p><img class="roundrect-avatar" src="/images/ava.jpg" height="300"></p></center>
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Hi, I'm Alex Sosnovshchenko and this is my blog. Here you can find some occasional notes on certain random topics, including, but not limited to, machine learning, programming, life, the Universe and everything.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+**"Impervious Invisibility"** - is just an asemic phrase made up by random phrase generator. 
+
+
+<hr>
+<p></p>
+
+Привет, меня зовут Александр Сосновщенко и это мой блог. Здесь можно (будет) найти заметки на разные темы, которые меня волнуют. Еще иногда я перевожу статьи с языка на язык.
+
+Название блога (**"Impervious Invisibility"**) - асемическая фраза, созданная генератором случайного текста.

@@ -1,3 +1,4 @@
+
 /**
  * Site header
  */
@@ -194,6 +195,9 @@
     font-size: 24px;
 }
 
+.roundrect-avatar {
+border-radius: 150px;
+}
 
 
 /**
@@ -215,7 +219,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-
+    text-align:justify;
     h2 {
         font-size: 32px;
 
