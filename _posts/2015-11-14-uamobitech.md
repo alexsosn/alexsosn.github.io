@@ -12,7 +12,7 @@ excerpt: Презентация и демо-приложения с моего �
 
 <script async class="speakerdeck-embed" data-id="91e3cc4c332045b598fe6e437c885cc3" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-[Скачать в формате keynote](/atatic_content/uamobitech/ML_iOS_white.key)
+[Скачать в формате keynote](/static_content/uamobitech/ML_iOS_white.key)
 
 ### Ссылки в презентации
 
