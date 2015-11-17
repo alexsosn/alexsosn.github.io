@@ -4,6 +4,7 @@ title:  "Машинное обучение для iOS"
 date:   2015-11-14 22:55:09 +0200
 categories: ML
 excerpt: Презентация и демо-приложения с моего доклада на UAMobiTech 2015.
+comments: true
 ---
 
 Презентация и демо-приложения с моего доклада на [UAMobiTech 2015](http://uamobi.tech/).
@@ -70,4 +71,3 @@ excerpt: Презентация и демо-приложения с моего �
 
 <center><p><img width="400" src="/images/uamobitech/ScreenShot2.png"></p></center>
 [AssociationBot](https://github.com/alexsosn/AssociationBot) - исходники на GitHub.
-

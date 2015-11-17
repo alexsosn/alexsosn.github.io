@@ -4,6 +4,7 @@ title:  "Machine Learning for iOS"
 date:   2015-11-05 14:00:09 +0200
 categories: ML
 excerpt: Curated list of tools and resources to create really smart iOS applications.
+comments: true
 ---
  
 ## Tools and resources to create really smart iOS applications.
