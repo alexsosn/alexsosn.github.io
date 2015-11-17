@@ -11,15 +11,19 @@ permalink: /cv/
 **I'm programmer && biologist**
 
 ## Contact Information
-- [Dnipropetrovsk, Ukraine](https://www.google.com/maps?q=dnipropetrovsk) / [Wrocław, Poland](https://www.google.com/maps?q=wroclaw)
+- [Dnipropetrovsk, Ukraine](https://www.google.com/maps?q=dnipropetrovsk)
 - [linkedin](https://linkedin.com/in/asosnovschenko)
 - [github](https://github.com/alexsosn)
 - [twitter: @StecOverflow](https://twitter.com/StecOverflow)
 
 ## Experience
 
+### Developer, Opensource Projects, [Dnipropetrovsk], [Ukraine]
+* November 2015 - present
+* **Core Technologies:** [Swift], [Machine learning], [C], [C++], [Deep Learning]
+
 ### [iOS] Developer, [Gigaset Communications](http://www.gigaset.com/de_DE/home.html) (Germany), R&D office at Wrocław, Poland
-* April 2015 – Present
+* April 2015 – October 2015
 * Front-end mobile applications for Gigaset smart house platform - [Gigaset Elements](http://gigaset-elements.com/en/) and Gigaset [MobileDock](http://blog.gigaset.com/gigaset-mobiledock/).
 Integration with custom proprietary Bluetooth LE services.
 * **Core technologies:** [Objective-C], [Python], [JavaScript], [Scrum], [Agile], [Kanban], [TDD], [Test automation], [Bluetooth LE].
@@ -313,6 +317,7 @@ Internal app for biotech corporation.
 [Bluetooth]: https://en.wikipedia.org/wiki/Bluetooth
 [Bowtie]: http://bowtie-bio.sourceforge.net/index.shtml
 [BSON]: http://bsonspec.org/
+[C]: https://en.wikipedia.org/wiki/C_%28programming_language%29
 [C++]: https://isocpp.org/
 [card.io]: https://www.card.io/
 [chemistry]: https://en.wikipedia.org/wiki/Chemistry
@@ -337,6 +342,7 @@ Internal app for biotech corporation.
 [Data science]: https://en.wikipedia.org/wiki/Data_science
 [Data visualization]: https://en.wikipedia.org/wiki/Data_visualization
 [DECT]: https://en.wikipedia.org/wiki/Digital_Enhanced_Cordless_Telecommunications
+[Deep Learning]: http://deeplearning.net/
 [Design Patterns]: https://en.wikipedia.org/wiki/Design_Patterns
 [Digital signal processing]: https://en.wikipedia.org/wiki/Digital_signal_processing
 [Dnipropetrovsk National University]: https://en.wikipedia.org/wiki/Oles_Honchar_Dnipropetrovsk_National_University
