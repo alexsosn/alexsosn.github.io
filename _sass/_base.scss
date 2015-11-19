@@ -204,3 +204,23 @@ pre {
         }
     }
 }
+
+
+/**
+* Tables
+*/
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:1px solid #a9a9a9;
+    width: 100%;
+}
+
+th{
+    border:1px solid #a9a9a9;
+}
+
+td{
+    border:1px solid #a9a9a9;
+    padding: 2px;
+}
