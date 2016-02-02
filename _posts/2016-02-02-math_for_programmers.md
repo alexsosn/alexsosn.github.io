@@ -33,15 +33,15 @@ comments: true
 
 ## Линейная алгебра
 
-#### Где встречается программисту
+**Где встречается программисту**
 
 Компьютерная графика, криптография, цифровая обработка сигналов, машинное обучение...
 
-#### Ресурсы
+**Ресурсы**
 
 - Идеальный курс по линалу для программистов с примерами из реальной жизни и задачками на программирование - <a href="https://www.coursera.org/course/matrix">Coding the Matrix</a>. <a href="http://codingthematrix.com/">Сайт курса</a>.
-- Методичка с шутками и прибаутками - <a href="http://eqworld.ipmnet.ru/ru/library/books/Rechkalov2008ru.pdf">В. Г. Речкалов. Векторная и тензорная алгебра для будущих физиков и техников</a>
-- Интерактивный учебник (неоконченный) <a href="http://immersivemath.com/ila/index.html">Immersive Linear Algebra</a></li>
+- Методичка с шутками и прибаутками - <a href="http://eqworld.ipmnet.ru/ru/library/books/Rechkalov2008ru.pdf">В. Г. Речкалов. Векторная и тензорная алгебра для будущих физиков и техников</a>.
+- Интерактивный учебник (неоконченный) <a href="http://immersivemath.com/ila/index.html">Immersive Linear Algebra</a>.
 - [Khan Academy](https://www.khanacademy.org/math/linear-algebra), конечно же.
 - Быстро освежить формулы поможет <a href="https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf">Matrix Cookbook</a>.
 
@@ -54,9 +54,9 @@ comments: true
 **Ресурсы**
 
 - Бесплатная книга [Наглядная статистика. Используем R!](http://herba.msu.ru/shipunov/school/books/rbook.pdf) А. Б. Шипунов и др. Все объясняется на практических примерах и незанудно.
-- Внезапно, манга: [Занимательная статистика. Син Такахаси](http://www.ozon.ru/context/detail/id/4935692/). Неплохое введение в тему. П.с. остальные книги этой серии не могу порекомендовать.
+- Внезапно, манга: [Занимательная статистика. Син Такахаси](http://www.ozon.ru/context/detail/id/4935692/). Неплохое введение в тему. Остальные книги этой серии не могу порекомендовать.
 - Отличный вводный курс [Data Analysis and Statistical Inference](https://www.coursera.org/course/statistics) от Duke University, учебники и лабы к нему на [Open Intro](https://www.openintro.org/).
-- [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+- [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/).
 
 
 ## Математический анализ
@@ -72,7 +72,7 @@ comments: true
 
 **Ресурсы**
 
-- Цикл курсов Robert Ghrist из University of Pennsylvania. Вот ссылка на первую часть цикла: [Calculus: Single Variable Part 1 - Functions](https://www.coursera.org/learn/single-variable-calculus)
+- Цикл курсов Robert Ghrist из University of Pennsylvania. Вот ссылка на первую часть цикла: [Calculus: Single Variable Part 1 - Functions](https://www.coursera.org/learn/single-variable-calculus).
 - Известная питоновская либа для символьных вычислений SymPy имеет веб-интерфейс [SymPy Gamma](http://www.sympygamma.com/), который позволяет интерактивно строить графики функций, дифференцироваль, раскладывать в ряды Тейлора, считать пределы и делать кучу других замечательных вещей.
 
 
@@ -85,7 +85,7 @@ comments: true
 **Ресурсы**
 
 - Книга [Дискретная математика для программистов.](http://www.ozon.ru/context/detail/id/5041872/) Гэри Хаггард и др.
-- Еще некоторые советуют [Дискретная математика для программистов.](http://www.ozon.ru/context/detail/id/7825217/) Род Хаггарти
+- Еще некоторые советуют [Дискретная математика для программистов.](http://www.ozon.ru/context/detail/id/7825217/) Род Хаггарти.
 
 ## Цифровая обработка сигналов 
 
@@ -107,17 +107,17 @@ comments: true
 
 **Теория информации**
 
-- [Джеймс Глик. Информация. История. Теория. Поток](http://www.corpus.ru/products/informacija-istorija-teorija-potok.htm)
+- [Джеймс Глик. Информация. История. Теория. Поток](http://www.corpus.ru/products/informacija-istorija-teorija-potok.htm).
 
 **Статистика, теорвер**
 
-- [The Drunkard's Walk: How Randomness Rules Our Lives](https://en.wikipedia.org/wiki/The_Drunkard's_Walk)
-- [Дарелл Хафф. Как лгать при помощи статистики](http://www.ozon.ru/context/detail/id/32796823/)
-- [Нейт Сильвер. Сигнал и Шум. Почему одни прогнозы сбываются, а другие - нет](http://www.ozon.ru/context/detail/id/31499887/)
+- [The Drunkard's Walk: How Randomness Rules Our Lives](https://en.wikipedia.org/wiki/The_Drunkard's_Walk).
+- [Дарелл Хафф. Как лгать при помощи статистики](http://www.ozon.ru/context/detail/id/32796823/).
+- [Нейт Сильвер. Сигнал и Шум. Почему одни прогнозы сбываются, а другие - нет](http://www.ozon.ru/context/detail/id/31499887/).
 
 **Теория хаоса**
 
-- [Джеймс Глейк. Хаос. Создание новой науки](https://en.wikipedia.org/wiki/Chaos:_Making_a_New_Science)
+- [Джеймс Глейк. Хаос. Создание новой науки](https://en.wikipedia.org/wiki/Chaos:_Making_a_New_Science).
 
 **Криптография**
 
