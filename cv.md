@@ -11,15 +11,20 @@ permalink: /cv/
 **I'm programmer && biologist**
 
 ## Contact Information
-- [Dnipropetrovsk, Ukraine](https://www.google.com/maps?q=dnipropetrovsk)
-- [linkedin](https://linkedin.com/in/asosnovschenko)
+- [Lviv, Ukraine](https://www.google.com/maps?q=lviv)
+- [LinkedIn](https://linkedin.com/in/asosnovschenko)
 - [github](https://github.com/alexsosn)
 - [twitter: @StecOverflow](https://twitter.com/StecOverflow)
 
 ## Experience
 
-### Developer, Opensource Projects, [Dnipropetrovsk], [Ukraine]
-* November 2015 - present
+### [iOS] Developer, [GlobalLogic](https://www.globallogic.com), [Lviv], [Ukraine]
+* March 2016 - present.
+* Application in mobile security domain.
+* **Core Technologies:** [Swift], [iOS]
+
+### Developer, Opensource Projects, [Dnipro], [Ukraine]
+* November 2015 - March 2016
 * **Core Technologies:** [Swift], [Machine learning], [C], [C++], [Deep Learning]
 
 ### [iOS] Developer, [Gigaset Communications](http://www.gigaset.com/de_DE/home.html) (Germany), R&D office at Wrocław, Poland
@@ -28,7 +33,7 @@ permalink: /cv/
 Integration with custom proprietary Bluetooth LE services.
 * **Core technologies:** [Objective-C], [Python], [JavaScript], [Scrum], [Agile], [Kanban], [TDD], [Test automation], [Bluetooth LE].
 
-### [iOS] Developer, [Ciklum Interactive Solutions](http://www.ciklum.com/), [Dnipropetrovsk], [Ukraine]
+### [iOS] Developer, [Ciklum Interactive Solutions](http://www.ciklum.com/), [Dnipro], [Ukraine]
 
 February 2014 – April 2015 
 
@@ -45,19 +50,19 @@ Research.
 * Submitting to app store.
 * **Core technologies:**  [Objective-C], [Python], [Java], [TDD], [Appium].
 
-### Software Developer, [Yalantis](yalantis.com), [Dnipropetrovsk], 2012-2014 
+### Software Developer, [Yalantis](yalantis.com), [Dnipro], 2012-2014 
 * Mobile application development. I took part in development of 10 apps, 5 of them is for medical or biotech companies. Other includes mobile media platform, social media, games and productivity apps.
 * **Core technologies:** [Objective-C], [OS X], [Git], [SVN].
 
-### Teacher, Secondary school, [Dnipropetrovsk], 2010-2012
+### Teacher, Secondary school, [Dnipro], 2010-2012
 * [Biology] and [chemistry] teacher in 5 – 10 grades.
 * **Skills gained:** [pedagogy], [psychology], [public speaking], [scientific demonstrations].
 
-### Engineer, [Dnipropetrovsk National University], Research Institute of [Biology], [Dnipropetrovsk], April 2010 – June 2010 
+### Engineer, [Dnipropetrovsk National University], Research Institute of [Biology], [Dnipro], April 2010 – June 2010 
 * [Data analysis]. Skills gained: [MS Excel], [MS Access].
 * Subjects: [water quality] monitoring, [bacteriological water analysis].
 
-### Junior Laboratory Assistant, [Dnipropetrovsk National University], Department of Biology, Aquarium, [Dnipropetrovsk], October 2008 – January 2009 
+### Junior Laboratory Assistant, [Dnipropetrovsk National University], Department of Biology, Aquarium, [Dnipro], October 2008 – January 2009 
 * Caring for aquatic organisms.
 * Skills gained: [positive mood], [self motivation], [proactivity], [fishkeeping], [crocodilekeeping].
 
@@ -194,7 +199,7 @@ Smart house.
 	* Documentation development
 * **Technologies:**  [Core Plot], [HealthKit], [Validic], [CoreLocation], [CoreMotion], [CoreGraphics], [CoreData], [APNS], [AFNetworking], [HTTPS], [Autolayouts], [XCTest], [Kiwi], [REST], [TestFlight], [Crashalitics], [Jira], [Jenkins], [GitHub], [CocoaPods], [R], [Python], [OpenCV], [Machine learning].
 
-### Football Couch Simulator Mobile Game
+### Football Coach Simulator Mobile Game
 * **Role:** 
 	* Reimplementation of Titanium application in native [iOS] SDK.
 	* Integration of the client application with [REST] API.
@@ -267,18 +272,14 @@ Internal app for biotech corporation.
 	* Video player integration.
 * **Technologies:** [UIKit].
 
-## Online courses finished with statements of accomplishment 
+## Courses
 
-### Bioinformatics:
-* Epigenetic Control of Gene Expression by University of Melbourne
-* Bioinformatics: Life Sciences on Your Computer by Johns Hopkins University
-* Bioinformatics: Introduction and Methods by Peking University
-* Bioinformatic Methods I by University of Toronto
-* Bioinformatic Methods II by University of Toronto
-* Computational Molecular Evolution by Technical University of Denmark
-* Programmed cell death by Ludwig-Maximilians-Universität München (LMU)
+* Data science summer school 2016 at [UCU](http://cs.ucu.edu.ua/en/).
+
+## Online courses 
 
 ### Data science: 
+
 * Introduction to Data Science by University of Washington 
 * Computing for Data Analysis (R programming) by Johns Hopkins University 
 * Data Analysis and Statistical Inference by Duke University 
@@ -287,11 +288,23 @@ Internal app for biotech corporation.
 * CS100.1x: [Introduction to Big Data with Apache Spark](https://s3.amazonaws.com/verify.edx.org/downloads/f6d4cceb3add45f2a404195741fc7708/Certificate.pdf) by BerkeleyX
 
 ### Software Development: 
+
 * [MongoDB for Developers](http://education.mongodb.com/downloads/certificates/6a4b34178a9a45698ef92e5dbb91bd69/Certificate.pdf) by MongoDB Inc. 
 * Programming in Objective-C by National Open University Intuit 
 * FP101x: [Introduction to Functional Programming](https://s3.amazonaws.com/verify.edx.org/downloads/f4b3dd81b0e046e89ac3d49f1461f10d/Certificate.pdf) by Delft University of Technology through edX 
 
+### Bioinformatics:
+
+* Epigenetic Control of Gene Expression by University of Melbourne
+* Bioinformatics: Life Sciences on Your Computer by Johns Hopkins University
+* Bioinformatics: Introduction and Methods by Peking University
+* Bioinformatic Methods I by University of Toronto
+* Bioinformatic Methods II by University of Toronto
+* Computational Molecular Evolution by Technical University of Denmark
+* Programmed cell death by Ludwig-Maximilians-Universität München (LMU)
+
 ### Language: 
+
 * [Writing in the Sciences](https://verify.class.stanford.edu/SOA/cd8e146a9365494cab3c09e669c88695/) by Stanford Online 
 
 [A]: https://en.wikipedia.org/wiki/Education_in_Ukraine#Marks
@@ -346,7 +359,7 @@ Internal app for biotech corporation.
 [Design Patterns]: https://en.wikipedia.org/wiki/Design_Patterns
 [Digital signal processing]: https://en.wikipedia.org/wiki/Digital_signal_processing
 [Dnipropetrovsk National University]: https://en.wikipedia.org/wiki/Oles_Honchar_Dnipropetrovsk_National_University
-[Dnipropetrovsk]: https://en.wikipedia.org/wiki/Dnipropetrovsk
+[Dnipro]: https://en.wikipedia.org/wiki/Dnipropetrovsk
 [Dropbox SDK]: https://www.dropbox.com/developers/core/sdks/ios
 [DSP]: https://en.wikipedia.org/wiki/Digital_signal_processing
 [Ensembl genome browser]: http://www.ensembl.org/index.html
@@ -391,6 +404,7 @@ Internal app for biotech corporation.
 [LinkedIn API]: https://developer.linkedin.com/
 [Linux]: https://en.wikipedia.org/wiki/Linux
 [LLVM]: http://llvm.org/
+[Lviv]: https://en.wikipedia.org/wiki/Lviv
 [Machine learning]: https://en.wikipedia.org/wiki/Machine_learning
 [MapReduce]: https://en.wikipedia.org/wiki/MapReduce
 [maps]: http://rmaps.github.io/
