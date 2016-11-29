@@ -9,7 +9,7 @@ comments: true
  
 ## Tools and resources to create really smart iOS applications.
 
-**Last Update: September 22, 2016.**
+**Last Update: November 29, 2016.**
 
 Curated list of resources for iOS developers in following topics: 
 
