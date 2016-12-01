@@ -6,8 +6,6 @@ categories: ML
 excerpt: Curated list of tools and resources to create really smart iOS applications.
 comments: true
 ---
- 
-# Machine Learning for iOS 
 
 ## Tools and resources to create really smart iOS applications.
 
@@ -244,11 +242,11 @@ Metal & Swift](https://realm.io/news/swift-summit-simon-gladman-metal/) - a vide
 # People to follow in iOS machine learning and related topics
 \(In alphabet order\).
 
-* **Alejandro** - BrainCore and Caffe for iOS author. [Blog](http://a-coding.com). {% include icon-twitter.html username="aleph7" %}.
-* **Simon Gladman** - Swift and Metal enthusiast and blogger. [Blog](http://flexmonkey.blogspot.com/). {% include icon-twitter.html username="flexmonkey" %}.
-* **Andrej Karpathy** - Research Scientist at OpenAI. ConvNetJS author. [Blog](http://karpathy.github.io/). {% include icon-twitter.html username="karpathy" %}.
-* **Kalvar Lin** - Implemented a set of small machine learning libraries for iOS and Ruby. {% include icon-twitter.html username="ilovekalvar" %}.
-* **Memkite team** - Memkite is a Deep Learning framework for iOS that can be used to support Artificial Intelligence (AI) in apps. {% include icon-twitter.html username="memkite" %}.
-	* **Torbjørn Morland** {% include icon-twitter.html username="torbmorland" %}.
-	* **Amund Tveit** {% include icon-twitter.html username="atveit" %}.
+* **Alejandro** - BrainCore and Caffe for iOS author. [Blog](http://a-coding.com). {% include icon-twitter.html username="aleph7" %}
+* **Simon Gladman** - Swift and Metal enthusiast and blogger. [Blog](http://flexmonkey.blogspot.com/). {% include icon-twitter.html username="flexmonkey" %}
+* **Andrej Karpathy** - Research Scientist at OpenAI. ConvNetJS author. [Blog](http://karpathy.github.io/). {% include icon-twitter.html username="karpathy" %}
+* **Kalvar Lin** - Implemented a set of small machine learning libraries for iOS and Ruby. {% include icon-twitter.html username="ilovekalvar" %}
+* **Memkite team** - Memkite is a Deep Learning framework for iOS that can be used to support Artificial Intelligence (AI) in apps. {% include icon-twitter.html username="memkite" %}
+	* **Torbjørn Morland** {% include icon-twitter.html username="torbmorland" %}
+	* **Amund Tveit** {% include icon-twitter.html username="atveit" %}
 
