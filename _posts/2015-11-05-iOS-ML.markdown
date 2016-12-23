@@ -93,6 +93,7 @@ The following algorithms are currently available: Gradient Descent Backpropagati
 * [STEM](https://github.com/abeschneider/stem) - Swift Tensor Engine for Machine-learning
 	* [Documentation](http://stem.readthedocs.io/en/latest/) 
 * [multilinear-math](https://github.com/vincentherrmann/multilinear-math) - Swift library for tensor operations, machine learning and artificial intelligence
+* [MLKit](https://github.com/Somnibyte/MLKit) - regressions, cross-validation, data splitting.
 
 * **Kalvar Lin's libraries**
 	* [ios-BPN-NeuralNetwork](https://github.com/Kalvar/ios-BPN-NeuralNetwork) - 3-layer neural network + back propagation.
@@ -251,6 +252,8 @@ Metal & Swift](https://realm.io/news/swift-summit-simon-gladman-metal/) - a vide
 * [Texture Networks](https://github.com/DmitryUlyanov/texture_nets), Lua implementation
 * [Feedforward style transfer](https://github.com/jcjohnson/fast-neural-style), Lua implementation
 * [TensorFlow implementation of Neural Style](https://github.com/cysmith/neural-style-tf)
+* [Corrosion detection app](https://github.com/jmolayem/corrosionapp)
+* [Classical ELIZA chatbot in Swift](https://gist.github.com/hollance/be70d0d7952066cb3160d36f33e5636f)
 
 # Other Lists
 * [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
@@ -268,12 +271,15 @@ Using Mobile Phone Accelerometers](http://www.cc.gatech.edu/~traynor/papers/tray
 * [Machine Learning for iOS](https://www.invasivecode.com/weblog/machine-learning-swift-ios/)
 * [Convolutional Neural Networks in iOS 10 and macOS](https://www.invasivecode.com/weblog/convolutional-neural-networks-ios-10-macos-sierra/)
 * [An exclusive inside look at how artificial intelligence and machine learning work at Apple](https://backchannel.com/an-exclusive-look-at-how-ai-and-machine-learning-work-at-apple-8dbfb131932b)
+* [The “hello world” of neural networks](http://matthijshollemans.com/2016/08/24/neural-network-hello-world/) - Swift and BNNS
+* [Convolutional neural networks on the iPhone with VGGNet](http://matthijshollemans.com/2016/08/30/vggnet-convolutional-neural-network-iphone/)
 
 # People to follow in iOS machine learning and related topics
 \(In alphabet order\).
 
 * **Alejandro** - BrainCore and Caffe for iOS author. [Blog](http://a-coding.com). {% include icon-twitter.html username="aleph7" %}
 * **Simon Gladman** - Swift and Metal enthusiast and blogger. [Blog](http://flexmonkey.blogspot.com/). {% include icon-twitter.html username="flexmonkey" %}
+* **Matthijs Hollemans** - Swift, Metal and neural networks. [Blog](http://matthijshollemans.com/). {% include icon-twitter.html username="mhollemans" %}
 * **Andrej Karpathy** - Research Scientist at OpenAI. ConvNetJS author. [Blog](http://karpathy.github.io/). {% include icon-twitter.html username="karpathy" %}
 * **Kalvar Lin** - Implemented a set of small machine learning libraries for iOS and Ruby. {% include icon-twitter.html username="ilovekalvar" %}
 * **Memkite team** - Memkite is a Deep Learning framework for iOS that can be used to support Artificial Intelligence (AI) in apps. {% include icon-twitter.html username="memkite" %}
