@@ -266,16 +266,28 @@ Metal & Swift](https://realm.io/news/swift-summit-simon-gladman-metal/) - a vide
 * [Speech and language processing](https://github.com/edobashira/speech-language-processing)
 * [The Rise of Chat Bots:](https://stanfy.com/blog/the-rise-of-chat-bots-useful-links-articles-libraries-and-platforms/)  Useful Links, Articles, Libraries and Platforms by Pavlo Bashmakov.
 
-# Articles
+# Articles, Blog posts, Papers
+
+## General
+
 * [Intelligence in Mobile Applications](https://medium.com/@sadmansamee/intelligence-in-mobile-applications-ca3be3c0e773#.lgk2gt6ik)
-* [(sp)iPhone: Decoding Vibrations From Nearby Keyboards
-Using Mobile Phone Accelerometers](http://www.cc.gatech.edu/~traynor/papers/traynor-ccs11.pdf)
+* [An exclusive inside look at how artificial intelligence and machine learning work at Apple](https://backchannel.com/an-exclusive-look-at-how-ai-and-machine-learning-work-at-apple-8dbfb131932b)
+
+
+## Deep Learning
+
 * [Use TensorFlow and BNNS to Add Machine Learning to your Mac or iOS App](https://www.bignerdranch.com/blog/use-tensorflow-and-bnns-to-add-machine-learning-to-your-mac-or-ios-app/)
 * [Machine Learning for iOS](https://www.invasivecode.com/weblog/machine-learning-swift-ios/)
 * [Convolutional Neural Networks in iOS 10 and macOS](https://www.invasivecode.com/weblog/convolutional-neural-networks-ios-10-macos-sierra/)
-* [An exclusive inside look at how artificial intelligence and machine learning work at Apple](https://backchannel.com/an-exclusive-look-at-how-ai-and-machine-learning-work-at-apple-8dbfb131932b)
 * [The “hello world” of neural networks](http://matthijshollemans.com/2016/08/24/neural-network-hello-world/) - Swift and BNNS
 * [Convolutional neural networks on the iPhone with VGGNet](http://matthijshollemans.com/2016/08/30/vggnet-convolutional-neural-network-iphone/)
+* [How to Quantize Neural Networks with TensorFlow](https://petewarden.com/2016/05/03/how-to-quantize-neural-networks-with-tensorflow/)
+
+## Information security and ML
+
+* [(sp)iPhone: Decoding Vibrations From Nearby Keyboards
+Using Mobile Phone Accelerometers](http://www.cc.gatech.edu/~traynor/papers/traynor-ccs11.pdf)
+
 
 # People to follow in iOS machine learning and related topics
 \(In alphabet order\).
