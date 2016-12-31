@@ -93,7 +93,6 @@ The following algorithms are currently available: Gradient Descent Backpropagati
 	* [Documentation](http://stem.readthedocs.io/en/latest/) 
 * [multilinear-math](https://github.com/vincentherrmann/multilinear-math) - Swift library for tensor operations, machine learning and artificial intelligence
 * [MLKit](https://github.com/Somnibyte/MLKit) - regressions, cross-validation, data splitting.
-* [Swift-Brain](https://github.com/vlall/Swift-Brain) - NNs, SVM.
 
 * **Kalvar Lin's libraries**
 	* [ios-BPN-NeuralNetwork](https://github.com/Kalvar/ios-BPN-NeuralNetwork) - 3-layer neural network + back propagation.
