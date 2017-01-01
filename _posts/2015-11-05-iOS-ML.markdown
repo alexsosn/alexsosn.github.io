@@ -9,7 +9,7 @@ comments: true
 
 ## Tools and resources to create really smart iOS applications.
 
-**Last Update: December 31, 2016.**
+**Last Update: January 1, 2017.**
 
 Curated list of resources for iOS developers in following topics: 
 
@@ -93,6 +93,7 @@ The following algorithms are currently available: Gradient Descent Backpropagati
 	* [Documentation](http://stem.readthedocs.io/en/latest/) 
 * [multilinear-math](https://github.com/vincentherrmann/multilinear-math) - Swift library for tensor operations, machine learning and artificial intelligence
 * [MLKit](https://github.com/Somnibyte/MLKit) - regressions, cross-validation, data splitting.
+* [dlib](http://dlib.net/) is a C++ framework which contains 30+ machine learning algorithms and different useful additions. It's relatively easy to port it to iOS: you just need to get rid of GUI and http-related source files.
 
 * **Kalvar Lin's libraries**
 	* [ios-BPN-NeuralNetwork](https://github.com/Kalvar/ios-BPN-NeuralNetwork) - 3-layer neural network + back propagation.
@@ -163,13 +164,15 @@ An Objective-C implementation of Twitter's text processing library. The library 
 * [**Vuforia** Framework](https://developer.vuforia.com/downloads/sdk)
 	* [Object detection with Vuforia tutorial.](http://habrahabr.ru/company/dataart/blog/256385/) \(Russian\)
 
-* **[OpenCV](http://opencv.org)** - Open Source Computer Vision Library. [BSD]
+* **[OpenCV](http://opencv.org)** – Open Source Computer Vision Library. [BSD]
 	* [OpenCV crash course](http://www.pyimagesearch.com/free-opencv-crash-course/
 ) 
 	* [OpenCVSwiftStitch](https://github.com/foundry/OpenCVSwiftStitch)
 	* [Tutorial: using and building openCV on iOS devices](http://maniacdev.com/2011/07/tutorial-using-and-building-opencv-open-computer-vision-on-ios-devices)
 
-* [trackingjs](http://trackingjs.com/) - Object tracking in JS
+* [trackingjs](http://trackingjs.com/) – Object tracking in JS
+* [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) – a state-of-the art open source tool intended for facial landmark detection, head pose estimation, facial action unit recognition, and eye-gaze estimation.
+	* [iOS port](https://github.com/FaceAR/OpenFaceIOS)
 
 ### Text Recognition (OCR)
 * **Tesseract**
