@@ -20,7 +20,9 @@ Curated list of resources for iOS developers in following topics:
 - Other related stuff
 
 Most of the de-facto standard tools in domains listed above are written in iOS-unfriendly languages (Python/Java/R/Matlab) so finding something appropriate for your iOS application may be a challenging task.
+
 This list consists mainly of libraries written in Objective-C, Swift, C, C++, JavaScript and some other languages if they can be easily ported to iOS. Also, links to some relevant web APIs, blog posts, videos and learning materials included.
+
 Resources are sorted alphabetically or randomly. The order doesn't reflect my personal preferences or anything else. Some of the resources are awesome, some are great, some are fun, and some can serve as an inspiration.
 
 **Pull-requests are welcome [here](https://github.com/alexsosn/iOS_ML)!**
