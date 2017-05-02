@@ -7,7 +7,7 @@ excerpt: Curated list of tools and resources to create really smart iOS applicat
 comments: true
 ---
 
-**Last Update: May 1, 2017.**
+**Last Update: May 2, 2017.**
 
 Curated list of resources for iOS developers in following topics: 
 
@@ -20,7 +20,8 @@ Curated list of resources for iOS developers in following topics:
 - Other related stuff
 
 Most of the de-facto standard tools in domains listed above are written in iOS-unfriendly languages (Python/Java/R/Matlab) so finding something appropriate for your iOS application may be a challenging task.
-This list consists mainly of libraries written in Objective-C, Swift, C, C++, JavaScript and some other languages if they can be easily ported to iOS. Also links to some relevant web APIs, blog posts, videos and learning materials included.
+This list consists mainly of libraries written in Objective-C, Swift, C, C++, JavaScript and some other languages if they can be easily ported to iOS. Also, links to some relevant web APIs, blog posts, videos and learning materials included.
+Resources are sorted alphabetically or randomly. The order doesn't reflect my personal preferences or anything else. Some of the resources are awesome, some are great, some are fun, and some can serve as an inspiration.
 
 **Pull-requests are welcome [here](https://github.com/alexsosn/iOS_ML)!**
 
@@ -50,7 +51,7 @@ The following algorithms are currently available: Gradient Descent Backpropagati
 * [dlib](http://dlib.net/) is a C++ framework which contains 30+ machine learning algorithms and different useful additions. It's relatively easy to port it to iOS: you just need to get rid of GUI and http-related source files.
 * [Mendel](https://github.com/saniul/Mendel) - Genetic algorithms in Swift.
 
-* **Kalvar Lin's libraries**
+* Kalvar Lin's libraries
 	* [ios-BPN-NeuralNetwork](https://github.com/Kalvar/ios-BPN-NeuralNetwork) - 3-layer neural network + back propagation.
 	* [ios-Multi-Perceptron-NeuralNetwork](https://github.com/Kalvar/ios-Multi-Perceptron-NeuralNetwork) - Multi-perceptron neural network based on back propagation NN.
 	* [ios-KRDelta](https://github.com/Kalvar/ios-KRDelta) - [Delta Learning method](https://en.wikipedia.org/wiki/Delta_rule)
@@ -66,6 +67,7 @@ The following algorithms are currently available: Gradient Descent Backpropagati
 
 # Deep Learning Libraries
 
+* [Birdbrain](https://github.com/jordenhill/Birdbrain) - RNNs and FF NNs on top of Metal and Accelerate. Not ready for production.
 * [BNNS](https://developer.apple.com/reference/accelerate/1912851-bnns) - Apple Basic neural network subroutines (BNNS) is a collection of functions that you use to implement and run neural networks, using previously obtained training data.
 	* [BNNS usage examples](https://github.com/shu223/iOS-10-Sampler) in iOS 10 sampler.
 * [BrainCore](https://github.com/aleph7/BrainCore) - simple but fast neural network framework written in Swift. It uses Metal framework to be as fast as possible. ReLU, LSTM, L2 ...
@@ -83,15 +85,20 @@ The following algorithms are currently available: Gradient Descent Backpropagati
 * [Forge](https://github.com/hollance/Forge) - A neural network toolkit for Metal.
 * [KSJNeuralNetwork](https://github.com/woffle/KSJNeuralNetwork) - A Neural Network Inference Library Built atop BNNS and MPS
 	* [Converter for Torch models](https://github.com/woffle/torch2ios)
+* [MetalPerformanceShaders](https://developer.apple.com/reference/metalperformanceshaders) - CNNs on GPU from Apple.
+	* [MetalCNNWeights](https://github.com/kakugawa/MetalCNNWeights) - a Python script to convert Inception v3 for MPS.
 * [MXNet](http://mxnet.readthedocs.org/en/latest/) - MXNet is a deep learning framework designed for both efficiency and flexibility.
 	* [Deploying mxnet to smartphone](https://github.com/dmlc/mxnet/tree/master/amalgamation)
 * [NNPACK](https://github.com/Maratyszcza/NNPACK) - Acceleration package for neural networks on multi-core CPUs. Prisma [uses](http://prisma-ai.com/libraries.html) this library in the mobile app.
 * [Quantized-CNN](https://github.com/jiaxiang-wu/quantized-cnn) - compressed convolutional neural networks for Mobile Devices
 * [TensorFlow](http://www.tensorflow.org/) - an open source software library for numerical computation using data flow graphs. Nodes in the graph represent mathematical operations, while the graph edges represent the multidimensional data arrays (tensors) communicated between them. The flexible architecture allows you to deploy computation to one or more CPUs or GPUs in a desktop, server, or mobile device with a single API.
 	* [iOS examples](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/ios_examples)
+	* [another example](https://github.com/hollance/TensorFlow-iOS-Example)
 * [tiny-dnn](https://github.com/tiny-dnn/tiny-dnn) - header only, dependency-free deep learning framework in C++11.
 	* [iOS example](https://github.com/tiny-dnn/tiny-dnn/tree/d4fff53fa0d01f59eb162de2ec32c652a1f6f467/examples/ios) 
-* [Torch-iOS](https://github.com/clementfarabet/torch-ios) - [Torch](http://torch.ch/) port for iOS. Torch is a scientific computing framework with wide support for machine learning algorithms. One of the most popular deep learning frameworks.
+* [Torch](http://torch.ch/) is a scientific computing framework with wide support for machine learning algorithms.
+	* [Torch4iOS](https://github.com/jhondge/torch4ios)
+	* [Torch-iOS](https://github.com/clementfarabet/torch-ios)
 
 # Computer Vision
 
@@ -109,11 +116,13 @@ The following algorithms are currently available: Gradient Descent Backpropagati
 
 # Natural Language Processing
 
+* [CoreLinguistics](https://github.com/rxwei/CoreLinguistics) - POS tagging (HMM), ngrams, Naive Bayes, IBM alignment models.
+* [GloVe](https://github.com/rxwei/GloVe-swift) Swift package. Vector words representations.
 * [NSLinguisticTagger](http://nshipster.com/nslinguistictagger/)
 * [Parsimmon](https://github.com/ayanonagon/Parsimmon)
 * [Twitter text](https://github.com/twitter/twitter-text-objc) - 
 An Objective-C implementation of Twitter's text processing library. The library includes methods for extracting user names, mentions headers, hashtags, and more – all the tweet specific language syntax you could ever want.
-* [Verbal expressions for Swift](https://github.com/VerbalExpressions/SwiftVerbalExpressions), like regexps for humans
+* [Verbal expressions for Swift](https://github.com/VerbalExpressions/SwiftVerbalExpressions), like regexps for humans.
 * [Word2Vec](https://code.google.com/p/word2vec/) - Original C implementation of Word2Vec Deep Learning algorithm. Works on iPhone like a charm.
 
 # Speech Recognition (TTS) and Generation (STT)
@@ -179,6 +188,8 @@ for apps, devices, and web
 * [GoogLeNet on iOS demo](https://github.com/krasin/MetalDetector)
 * [Neural style in Android](https://github.com/naman14/Arcade)
 * [mnist-bnns](https://github.com/paiv/mnist-bnns) - TensorFlow MNIST demo port to BNNS
+* [Benchmark of BNNS vs. MPS](https://github.com/hollance/BNNS-vs-MPSCNN)
+* [VGGNet on Metal](https://github.com/hollance/VGGNet-Metal)
 
 ## Traditional Computer Vision
 
@@ -204,22 +215,30 @@ for apps, devices, and web
 * [GameplayKit Programming Guide](https://developer.apple.com/library/content/documentation/General/Conceptual/GameplayKit_Guide/)
 
 # Other related staff
-## Math Libraries
-* [Surge](https://github.com/mattt/Surge) from Mattt
-* [Upsurge](https://github.com/aleph7/Upsurge) - tensors, matrices, Accelerate support
-* [YCMatrix](https://github.com/yconst/YCMatrix) - A flexible Matrix library for Objective-C and Swift (OS X / iOS)
+
+## Linear algebra
+
+* [Accelerate-in-Swift](https://github.com/hyperjeff/Accelerate-in-Swift) - Swift example codes for the Accelerate.framework
+* [cuda-swift](https://github.com/rxwei/cuda-swift) - Swift binding to CUDA. Not iOS, but still interesting.
 * [Eigen](http://eigen.tuxfamily.org/) - A high-level C++ library of template headers for linear algebra, matrix and vector operations, numerical solvers and related algorithms. [MPL2]
+* [Matrix](https://github.com/hollance/Matrix) - convenient matrix type with different types of subscripts, custom operators and predefined matrices. A fork of Surge.
+* [Surge](https://github.com/mattt/Surge) from Mattt
+* [Upsurge](https://github.com/aleph7/Upsurge) - generic tensors, matrices on top of Accelerate. A fork of Surge.
+* [YCMatrix](https://github.com/yconst/YCMatrix) - A flexible Matrix library for Objective-C and Swift (OS X / iOS)
+
+## Statistics, random numbers
+
 * [SigmaSwiftStatistics](https://github.com/evgenyneu/SigmaSwiftStatistics) - A collection of functions for statistical calculation written in Swift.
 * [SORandom](https://github.com/SebastianOsinski/SORandom) - Collection of functions for generating psuedorandom variables from various distributions
 * [RandKit](https://github.com/aidangomez/RandKit) - Swift framework for random numbers & distributions.
-* [Accelerate-in-Swift](https://github.com/hyperjeff/Accelerate-in-Swift) - Swift example codes for the Accelerate.framework
 
-## Optimization Libraries
+
+## Mathematical optimization
 
 * [fmincg-c](https://github.com/gautambhatrcb/fmincg-c) - Conjugate gradient implementation in C
 * [libLBFGS](https://github.com/chokkan/liblbfgs) - a C library of Limited-memory Broyden-Fletcher-Goldfarb-Shanno (L-BFGS)
 
-## Feature extraction libraries
+## Feature extraction
 
 * [IntuneFeatures](https://github.com/venturemedia/intune-features) framework contains code to generate features from audio files and feature labels from the respective MIDI files.
 * [matchbox](https://github.com/hfink/matchbox) - Mel-Frequency-Cepstral-Coefficients and Dynamic-Time-Warping for iOS/OSX. **Warning: the library was updated last time when iOS 4 was still hot.**
