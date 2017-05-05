@@ -317,14 +317,8 @@ Metal & Swift](https://realm.io/news/swift-summit-simon-gladman-metal/) - a vide
 * [Metal by Example blog](http://metalbyexample.com/)
 * [objc-io article on Metal](https://www.objc.io/issues/18-games/metal/)
 
-# iOS ML Papers
-
-// TODO
-
-* [(sp)iPhone: Decoding Vibrations From Nearby Keyboards
-Using Mobile Phone Accelerometers](http://www.cc.gatech.edu/~traynor/papers/traynor-ccs11.pdf)
-
 # Where to learn about machine learning and related topics in general
+
 * [Courserra course](https://www.coursera.org/learn/machine-learning/home/info) on machine learning from [Andrew Ng](https://twitter.com/AndrewYNg).
 * [Machine learning playlist on Youtube](https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA).
 * Free online interactive book ["Neural Networks and Deep Learning"](http://neuralnetworksanddeeplearning.com/).
@@ -343,6 +337,7 @@ Using Mobile Phone Accelerometers](http://www.cc.gatech.edu/~traynor/papers/tray
 * ["Deep learning"](http://www.deeplearningbook.org/) - the book by Ian Goodfellow and Yoshua Bengio and Aaron Courville
 
 # Other Lists
+
 * [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
 * [Machine Learning Courses](https://github.com/prakhar1989/awesome-courses#machine-learning)
 * [Awesome Data Science](https://github.com/okulbilisim/awesome-datascience)

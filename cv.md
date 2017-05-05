@@ -18,14 +18,27 @@ permalink: /cv/
 
 ## Experience
 
+<center><p><img height="502" src="/images/wordcloud.png"></p></center>
+
+### Stealth-mode project in mobile machine learning
+* November 2016 - present.
+* Technologies: Swift, Deep Learning, Machine Learning, Tensor Flow, Metal, Accelerate framefork, computer vision, NLP.
+
 ### [iOS] Developer, [GlobalLogic](https://www.globallogic.com), [Lviv], [Ukraine]
-* March 2016 - present.
+* March 2016 - March 2017.
 * Application in mobile security domain.
-* **Core Technologies:** [Swift], [iOS]
+	* Man-in-the-middle attacks detection
+	* SSL pinning
+	* Database encryption
+	* Beakons communication
+	* Geolocation
+	* End-to-end encryption
+	* Jailbreak detection
+* **Core Technologies:** [Swift], [iOS], [WebRTC], [Cryptography]
 
 ### Developer, Opensource Projects, [Dnipro], [Ukraine]
 * November 2015 - March 2016
-* **Core Technologies:** [Swift], [Machine learning], [C], [C++], [Deep Learning]
+* **Core Technologies:** [Swift], [Machine learning], [C], [C++], [Deep Learning], [Torch 7]
 
 ### [iOS] Developer, [Gigaset Communications](http://www.gigaset.com/de_DE/home.html) (Germany), R&D office at Wrocław, Poland
 * April 2015 – October 2015
@@ -64,7 +77,7 @@ Research.
 
 ### Junior Laboratory Assistant, [Dnipropetrovsk National University], Department of Biology, Aquarium, [Dnipro], October 2008 – January 2009 
 * Caring for aquatic organisms.
-* Skills gained: [positive mood], [self motivation], [proactivity], [fishkeeping], [crocodilekeeping].
+* Skills gained: [positive mood], [self motivation], [proactivity], [fishkeeping], [crocodile keeping].
 
 ## Education
 
@@ -76,26 +89,37 @@ Research.
 
 With distinction. [GPA]: [A].
 
-## Languages
+## Natural Languages
 
 |Language|Level|
 |--------------|-----------|
-|English |Professional knowledge|
-|Ukrainian|Native speaker|
+|English |Fluent|
 |Russian|Native speaker|
-|Polish, German, Latin, [Ancient Greek]|I studied these languages at some point of my life.|
+|Ukrainian|Native speaker|
+|Polish|Basic|
+|Ancient Greek|Hobby|
 
 
 ## Technical Skills
 
 ### Programming Languages
-* [Objective-C]
 * [Swift]
 * [Python]
 * [R]
+* [Objective-C]
 * [Java]
-* [Bash] scripting
-* [Matlab], [Octave], [Haskell], [C++] \(basics\)
+* [Matlab]/[Octave]
+
+### Data Science
+* [Machine learning]
+* [Data science]
+* Core: [R], [Python], [MongoDB], [Apache Spark], [MapReduce], [time series], [statistics].
+* [NLP]\: [Topic modelling], [sentiment analysis], [NLTK], [tm package]\(text mining\), [bag of words], [stemming], [corpuses], [tokenizers], ... 
+* [Data mining]:  [Classification], [Regression], [Cluster analysis], Evaluation metrics, [Linear] and [integer optimization], association rule minig, anomaly detection ...
+* [Digital signal processing]\: [face detection in video], [physical activity recognition], ...
+* [Data visualization]\: [word clouds], [heatmaps], [mosaic plots], [ggplot2], [RcolorBrewer], [maps], [igraph], ...
+* Data sources: [twitter API], [XML], [SQL], [HTML], [CSV], [JSON], [BSON] \([MongoDB]\), [spatial], bioinformatical formats, ...
+* Bioinformatical Tools: [PAUP], [PHYLIP], [MrBayes], [PyMOL], [UGENE], [MEGA]5/6, [Cytoscape], [Bioconductor], [BLAST], [HMMER], [ClustalW], [MUSCLE], [Bowtie], [Prosite], [Ensembl genome browser], [KEGG Pathway], [MEME], [MG-RAST], [FASTA], [FASTAQ], [SAM], [BAM], [PDB], [NEXUS] ...
 
 ### Paradigms: 
 * [OOP]
@@ -112,61 +136,10 @@ With distinction. [GPA]: [A].
 * [TDD]/[BDD]
 * [Acceptance testing]
 
-### Operating Systems
-* [OS X]
-* [Linux] \([Ubuntu]/[Fedora]\)
-* [Windows]
-
-### Data Science
-* [Machine learning]
-* [Data science]
-* Core: [R], [Python], [MongoDB], [Apache Spark], [MapReduce], [time series], [statistics].
-* [NLP]\: [Word2Vec], [sentiment analysis], [NLTK], [tm package]\(text mining\), [bag of words], [stemming], [corpuses], [tokenizers], ... 
-* [Data mining]: 
-	* [Classification]
-		* [decision trees](https://en.wikipedia.org/wiki/Decision_tree_learning), [Random Forest](https://en.wikipedia.org/wiki/Random_forest), [SVM](https://en.wikipedia.org/wiki/Support_vector_machine), [Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier), [e1071](https://cran.r-project.org/web/packages/e1071/index.html), ...
-	* [Regression]
-		* [linear regression](https://en.wikipedia.org/wiki/Linear_regression), [logistic regression](https://en.wikipedia.org/wiki/Logistic_regression), ...
-	* [Cluster analysis]
-		* [kNN](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm), [hierarchical clustering](https://en.wikipedia.org/wiki/Hierarchical_clustering), ... 
-	* Evaluation metrics
-		* [caTools](https://cran.r-project.org/web/packages/caTools/index.html), [ROC curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic), ...
-	* [Linear] and [integer optimization] \([MS Excel]/[Open office]\) 
-* [Digital signal processing]\: [face detection in video], [physical activity recognition], ...
-* [Data visualization]\: [word clouds], [heatmaps], [mosaic plots], [ggplot2], [RcolorBrewer], [maps], [igraph], ...
-* Data sources: [twitter API], [XML], [SQL], [HTML], [CSV], [JSON], [BSON] \([MongoDB]\), [spatial], bioinformatics formats, ...
-
-### Bioinformatic Tools
-* [PAUP]
-* [PHYLIP]
-* [MrBayes]
-* [PyMOL]
-* [UGENE]
-* [MEGA]5/6
-* [Cytoscape]
-* [Bioconductor]
-* [BLAST]
-* [HMMER]
-* [ClustalW]
-* [MUSCLE]
-* [Bowtie]
-* [Prosite]
-* [Ensembl genome browser]
-* [KEGG Pathway]
-* [MEME]
-* [MG-RAST]
-* [FASTA]
-* [FASTAQ]
-* [SAM]
-* [BAM]
-* [PDB]
-* [NEXUS]
-
 ### Other Tools
-* [LLVM] stack
-* [Git], [SVN]
+* [OS X], [Linux]
+* [Git], [SVN], [Gerrit]
 * [Jira], [Confluence]
-* [MS Excel], [MS Access]
 * [XCode], [IPython], [RStudio], [PyCharm]
 
 ## Projects
@@ -274,6 +247,7 @@ Internal app for biotech corporation.
 
 ## Courses
 
+* Machine learning winter school 2017 at [UCU](http://cs.ucu.edu.ua/en/), Computer Vision track.
 * Data science summer school 2016 at [UCU](http://cs.ucu.edu.ua/en/).
 
 ## Online courses 
@@ -311,7 +285,6 @@ Internal app for biotech corporation.
 [Acceptance testing]: https://en.wikipedia.org/wiki/Acceptance_testing#Acceptance_testing_in_extreme_programming
 [AFNetworking]: https://github.com/AFNetworking/AFNetworking
 [Agile]: http://agilemanifesto.org/
-[Ancient Greek]: https://en.wikipedia.org/wiki/Koine_Greek
 [Apache Spark]: http://spark.apache.org/
 [API]: https://en.wikipedia.org/wiki/API
 [APNS]: https://en.wikipedia.org/wiki/APNS
@@ -347,7 +320,7 @@ Internal app for biotech corporation.
 [CoreMotion]: https://developer.apple.com/library/ios/documentation/CoreMotion/Reference/CoreMotion_Reference/index.html
 [corpuses]: https://en.wikipedia.org/wiki/Corpus_linguistics
 [Crashalitics]: https://try.crashlytics.com/
-[crocodilekeeping]: http://lrm.nt.gov.au/__data/assets/pdf_file/0015/11454/guide_for_keeping_crocs2.pdf
+[crocodile keeping]: https://www.environment.sa.gov.au/files/sharedassets/public/plants_and_animals/pa-gen-crocodileguidelines.pdf
 [CSV]: https://en.wikipedia.org/wiki/Comma-separated_values
 [Cytoscape]: http://www.cytoscape.org/
 [Data analysis]: https://en.wikipedia.org/wiki/Data_analysis
@@ -488,5 +461,8 @@ Internal app for biotech corporation.
 [XCTest]: https://developer.apple.com/library/ios/documentation/DeveloperTools/Conceptual/testing_with_xcode/Introduction/Introduction.html
 [XML]: https://en.wikipedia.org/wiki/XML
 [ReactiveCocoa]: https://github.com/ReactiveCocoa/ReactiveCocoa
-
-
+[WebRTC]: https://en.wikipedia.org/wiki/WebRTC
+[Cryptography]: https://en.wikipedia.org/wiki/Cryptography
+[Topic modelling]: https://en.wikipedia.org/wiki/Topic_model
+[Gerrit]: https://www.gerritcodereview.com/
+[Torch 7]: http://torch.ch/
