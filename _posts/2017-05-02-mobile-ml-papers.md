@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mobile machine learning papers"
-date:   2017-06-02 00:03:00 +0200
+date:   2017-05-02 00:03:00 +0200
 categories: ML
 excerpt: A list of papers concerning mobile machine learning with the focus on information security.
 comments: true
@@ -10,6 +10,7 @@ comments: true
 I know, I know, no one really needs one more long lists of selected papers about ML. But I need this list to be somewhere so that I can drop the link with a message: "Say who needs ML on mobile one more time." 🤓
 
 During the last year, my work was revolving around mobile information security, so the list is obviously biased in this direction. As usually, order is random.
+
 
 # Applications: Mobile Sensors
 
@@ -23,9 +24,11 @@ Habib, M. A., Mohktar, M. S., Kamaruzzaman, S. B., Lim, K. S., Pin, T. M., Ibrah
 
 Lane, N. D., & Georgiev, P. (2015). **Can Deep Learning Revolutionize Mobile Sensing?** [PDF](http://niclane.org/pubs/lane_hotmobile15.pdf)
 
+
 # Applications: NLP
 
 Anjuli Kannan, Karol Kurach, Sujith Ravi, Tobias Kaufmann et al. (2016). **Smart Reply: Automated Response Suggestion for Email**. [arXiv](https://arxiv.org/abs/1606.04870)
+
 
 # Applications: Mobile Infosec
 
@@ -38,6 +41,7 @@ Mehrnezhad, M., Toreini, E., Shahandashti, S. F., Hao, F. (2015). **TouchSignatu
 Mehrnezhad, M., Toreini, E., Shahandashti, S. F., Hao, F. (2016). **Stealing PINs via Mobile Sensors: Actual Risk versus User Perception. International Journal of Information Security**. [PDF](https://www.internetsociety.org/sites/default/files/05%20stealing-pins-via-mobile-sensors-actual-risk-versus-user-perception.pdf)
 
 Carlini, N., Mishra, P., Vaidya, T., Zhang, Y., Sherr, M., Shields, C., Zhou, W. (2016). **Hidden Voice Commands**. [PDF, slides and Video](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/carlini)
+
 
 # CNNs Compression for Mobile Devices
 
@@ -57,9 +61,11 @@ Wu, J., Leng, C., Wang, Y., Hu, Q., Cheng, J. (2016). **Quantized Convolutional 
 
 Han, S., Liu, X., Mao, H., Pu, J., Pedram, A., Horowitz, M. A., Dally, W. J. (2016). **EIE: Efficient Inference Engine on Compressed Deep Neural Network**. [arXiv](https://arxiv.org/abs/1602.01528)
 
+
 # Distributed Learning
 
 McMahan, H. B., Moore, E., Ramage, D., Hampson, S., Arcas, B. A. y. (2016). **Communication-Efficient Learning of Deep Networks from Decentralized Data**.  [arXiv](http://arxiv.org/abs/1602.05629)
+
 
 # Best Practices
 (Platform agnostic)
