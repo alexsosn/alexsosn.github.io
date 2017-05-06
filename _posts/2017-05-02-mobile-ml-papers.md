@@ -11,6 +11,15 @@ I know, I know, no one really needs one more long lists of selected papers about
 
 During the last year, my work was revolving around mobile information security, so the list is obviously biased in this direction. As usually, order is random.
 
+# Applications: Computer Vision
+
+Andrey Ignatov, Nikolay Kobyshev, Kenneth Vanhoey, Radu Timofte, Luc Van Gool.  (2017). **DSLR-Quality Photos on Mobile Devices with Deep Convolutional Networks**. [arXiv](https://arxiv.org/abs/1704.02470)
+
+Joachim Dehais, Marios Anthimopoulos, Sergey Shevchik, Stavroula Mougiakakou. (2017). **Two-view 3D Reconstruction for Food Volume Estimation**. [arXiv](https://arxiv.org/abs/1701.03330)
+
+Michał Nowicki, Jan Wietrzykowski, Piotr Skrzypczyński. (2017). **Real-Time Visual Place Recognition for Personal Localization on a Mobile Device**. [arXiv](https://arxiv.org/abs/1611.02061)
+
+Kyle Krafka, Aditya Khosla, Petr Kellnhofer, Harini Kannan, Suchendra Bhandarkar, Wojciech Matusik, Antonio Torralba. (2016). **Eye Tracking for Everyone**. [arXiv](https://arxiv.org/abs/1606.05814)
 
 # Applications: Mobile Sensors
 
@@ -24,6 +33,9 @@ Habib, M. A., Mohktar, M. S., Kamaruzzaman, S. B., Lim, K. S., Pin, T. M., Ibrah
 
 Lane, N. D., & Georgiev, P. (2015). **Can Deep Learning Revolutionize Mobile Sensing?** [PDF](http://niclane.org/pubs/lane_hotmobile15.pdf)
 
+Masaya Inoue, Sozo Inoue, Takeshi Nishida. (2017). **Deep Recurrent Neural Network for Mobile Human Activity Recognition with High Throughput**. [arXiv](https://arxiv.org/abs/1611.03607)
+
+Dogukan Erenel, Haluk O. Bingol. (2016). **An Accelerometer Based Calculator for Visually Impaired People Using Mobile Devices**. [arXiv](https://arxiv.org/abs/1604.07660)
 
 # Applications: NLP
 
@@ -41,6 +53,12 @@ Mehrnezhad, M., Toreini, E., Shahandashti, S. F., Hao, F. (2015). **TouchSignatu
 Mehrnezhad, M., Toreini, E., Shahandashti, S. F., Hao, F. (2016). **Stealing PINs via Mobile Sensors: Actual Risk versus User Perception. International Journal of Information Security**. [PDF](https://www.internetsociety.org/sites/default/files/05%20stealing-pins-via-mobile-sensors-actual-risk-versus-user-perception.pdf)
 
 Carlini, N., Mishra, P., Vaidya, T., Zhang, Y., Sherr, M., Shields, C., Zhou, W. (2016). **Hidden Voice Commands**. [PDF, slides and Video](https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/carlini)
+
+Orekondy, T., Schiele, B., Fritz, M. (2017). **Towards a Visual Privacy Advisor: Understanding and Predicting Privacy Risks in Images**. [arXiv](https://arxiv.org/abs/1703.10660)
+
+Upal Mahbub, Sayantan Sarkar, Vishal M. Patel, Rama Chellappa. (2016). **Active User Authentication for Smartphones: A Challenge Data Set and Benchmark Results**. [arXiv](https://arxiv.org/abs/1610.07930)
+
+Pouya Samangouei, Rama Chellappa. (2016). **Convolutional Neural Networks for Attribute-based Active Authentication on Mobile Devices**. [arXiv](https://arxiv.org/abs/1604.08865)
 
 
 # CNNs Compression for Mobile Devices
@@ -61,6 +79,9 @@ Wu, J., Leng, C., Wang, Y., Hu, Q., Cheng, J. (2016). **Quantized Convolutional 
 
 Han, S., Liu, X., Mao, H., Pu, J., Pedram, A., Horowitz, M. A., Dally, W. J. (2016). **EIE: Efficient Inference Engine on Compressed Deep Neural Network**. [arXiv](https://arxiv.org/abs/1602.01528)
 
+Wenjia Meng, Zonghua Gu, Ming Zhang, Zhaohui Wu. (2017). **Two-Bit Networks for Deep Learning on Resource-Constrained Embedded Devices**. [arXiv](https://arxiv.org/abs/1701.00485)
+
+Renzo Andri, Lukas Cavigelli, Davide Rossi, Luca Benini. (2017). **YodaNN: An Architecture for Ultra-Low Power Binary-Weight CNN Acceleration**. [arXiv](https://arxiv.org/abs/1606.05487)
 
 # Distributed Learning
 
@@ -76,4 +97,4 @@ Domingos, P. (2012). **A few useful things to know about machine learning**. [PD
 
 Leslie N. Smith. **Best Practices for Applying Deep Learning to Novel Applications**. [arXiv](https://arxiv.org/abs/1704.01568)
 
-Martin Zinkevich. **Rules of Machine Learning : Best Practices for ML Engineering**. [PDF](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
+Martin Zinkevich. **Rules of Machine Learning: Best Practices for ML Engineering**. [PDF](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
