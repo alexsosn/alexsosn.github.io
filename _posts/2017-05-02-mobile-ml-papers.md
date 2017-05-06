@@ -1,11 +1,13 @@
 ---
 layout: post
 title:  "Mobile machine learning papers"
-date:   2017-05-02 00:03:00 +0200
+date:   2017-05-06 15:28:00 +0200
 categories: ML
 excerpt: A list of papers concerning mobile machine learning with the focus on information security.
 comments: true
 ---
+
+**Last Update: May 6, 2017.**
 
 I know, I know, no one really needs one more long lists of selected papers about ML. But I need this list to be somewhere so that I can drop the link with a message: "Say who needs ML on mobile one more time." 🤓
 
