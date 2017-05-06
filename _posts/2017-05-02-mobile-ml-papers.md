@@ -7,6 +7,8 @@ excerpt: A list of papers concerning mobile machine learning with the focus on i
 comments: true
 ---
 
+**Last Update: May 6, 2017.**
+
 I know, I know, no one really needs one more long lists of selected papers about ML. But I need this list to be somewhere so that I can drop the link with a message: "Say who needs ML on mobile one more time." 🤓
 
 During the last year, my work was revolving around mobile information security, so the list is obviously biased in this direction. As usually, order is random.
