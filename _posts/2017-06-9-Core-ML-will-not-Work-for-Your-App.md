@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why Core ML will not Work for Your App (most likely)"
+title:  "Why Core ML will not work for your app (most likely)"
 date:   2017-06-09 23:42:00 +0200
 categories: ML
 excerpt: While the buzz around newly released Apple framework is loud, I want to explain several things, that may not be obvious for those who are new to machine learning (ML).
