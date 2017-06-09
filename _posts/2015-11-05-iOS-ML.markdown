@@ -7,7 +7,7 @@ excerpt: Curated list of tools and resources to create really smart iOS applicat
 comments: true
 ---
 
-**Last Update: June 5, 2017.**
+**Last Update: June 10, 2017.**
 
 Curated list of resources for iOS developers in following topics: 
 
