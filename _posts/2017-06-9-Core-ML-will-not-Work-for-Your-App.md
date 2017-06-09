@@ -34,7 +34,7 @@ To train the model user's data have to be collected and uploaded to the servers.
 7. **Core ML doesn't compress models.**
 Modern neural networks can easily be hundreds of MB and even GBs. Model compression is something that you will have to sort out on your own.
 
-8. **Core ML is not the only way to do machine learning on iOS.** There are [tens of libraries and even frameworks](http://alexsosn.github.io/ml/2015/11/05/iOS-ML.html) that are free of these limitations and compatible with iOS.
+8. **Core ML is not the only way to do machine learning on iOS.** There are [tens of libraries and frameworks](http://alexsosn.github.io/ml/2015/11/05/iOS-ML.html) that are free of these limitations and compatible with iOS.
 
 So, where can Core ML be useful? In any app, that does pattern recognition using open source models and are okay with the above limitations. I'm pretty sure there are a lot of use cases and ... looking forward to seeing a lot of new dog-breed-recognizing apps.😄
 
