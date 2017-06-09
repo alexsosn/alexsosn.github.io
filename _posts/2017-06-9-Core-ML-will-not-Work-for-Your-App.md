@@ -3,7 +3,7 @@ layout: post
 title:  "Why Core ML will not Work for Your App (most likely)"
 date:   2017-06-09 23:42:00 +0200
 categories: ML
-excerpt: While the hype around newly released framework is high, I want to explain several things, that may not be obvious for those who are new to machine learning (ML).
+excerpt: While the buzz around newly released Apple framework is loud, I want to explain several things, that may not be obvious for those who are new to machine learning (ML).
 comments: true
 ---
 
@@ -12,11 +12,11 @@ While the buzz around newly released Apple framework is loud, I want to explain 
 1. **Core ML is not a machine learning framework.**
 Yes, in opposite to what have been proclaimed from the WWDC scene many times, Core ML is not a "machine learning framework." Why? If you ask any ML practitioner to name several ML frameworks, most likely they will recall ScikitLearn, TensorFlow, Theano, SparkML, maybe Weka if they are old enough. All those frameworks can train models on data. Then, some models can do inference, or simply speaking, predict things.
 Core ML can't take data and can't train models. It can take some types of trained models, convert them to its own format and then make predictions. These are *machine learning frameworks* mentioned in the keynote:
-<br>![Except Turi, perhaps. To be honest, I have no idea, who they are.](/images/to_coreml_or_not/frameworks.png)</br>
+<br>![Except Turi, perhaps. To be honest, I have no idea, who they are.](/images/to_coreml_or_not/frameworks.png)
 
 2. **Core ML supports only two types of ML.**
 Namely, [regression and classification](http://pythonhosted.org/coremltools/index.html#conversion-support). While classification is arguably the most popular ML task, there are many others: clustering, ranking, dimensionality reduction, distribution estimation, structure prediction, anomaly and novelty detection, rule mining, denoising, data compression, representation learning, reinforcement learning and so on. All this is behind the scope of Core ML. 
-<br>![](/images/to_coreml_or_not/coreml.png)</br>
+<br>![](/images/to_coreml_or_not/coreml.png)
 
 3. **You can not update the model in the runtime.**
 Model lives in your app bundle and Xcode generates a Swift class for it. So it's almost like .xcdatamodel file of CoreData. You can't change model based on user's input. You can't have personalized model.
@@ -26,7 +26,7 @@ You can't download the latest version of your model from your server.
 
 5. **If your models are proprietary or contain sensitive information, you can't use CoreML.**
 After the compilation, the model file is not encrypted or in other way secured. For instance, Caffe neural network gets converted to several JSON files with layers description and binaries with weights data. Anyone with an archiver can open the .ipa file and inspect the structure of your model.
-<br>![](/images/to_coreml_or_not/reverse.png)</br>
+<br>![](/images/to_coreml_or_not/reverse.png)
 
 6. **Core ML doesn't solve the privacy concerns.**
 To train the model user's data have to be collected and uploaded to the servers. Core ML doesn't address this in any way.
