@@ -21,8 +21,8 @@ Namely, [regression and classification](http://pythonhosted.org/coremltools/inde
 3. **You can not update the model in the runtime.**
 Model lives in your app bundle and Xcode generates a Swift class for it. So it's almost like .xcdatamodel file of CoreData. You can't change model based on user's input. You can't have personalized model.
 
-4. **You can not replace the model without releasing the new version of your app to the AppStore.**
-You can't download the latest version of your model from your server. 
+4. <s>**You can not replace the model without releasing the new version of your app to the AppStore.**
+You can't download the latest version of your model from your server. </s> Looks like there is a workaround: (1) put the model's swift file into the target, (2) compile new model from .mlmodel to .mlmodelc without changing its interface, (3) put those sources to the server, (4) download them from inside of your app, (5) initialize new model using `YourModelClass.init(contentsOf: URL)` method. I've tried it on my test device, and it works, I'm just not sure if it continues working after releasing to the Appstore.
 
 5. **If your models are proprietary or contain sensitive information, you can't use CoreML.**
 After the compilation, the model file is not encrypted or in other way secured. For instance, Caffe neural network gets converted to several JSON files with layers description and binaries with weights data. Anyone with an archiver can open the .ipa file and inspect the structure of your model.
@@ -32,7 +32,7 @@ After the compilation, the model file is not encrypted or in other way secured. 
 To train the model user's data have to be collected and uploaded to the servers. Core ML doesn't address this in any way.
 
 7. **Core ML doesn't compress models.**
-Modern neural networks can easily be hundreds of MB and even GBs. Model compression is something that you will have to sort out on your own.
+Modern neural networks can easily be hundreds of MB and even GBs. Model compression is something that you will have to sort out on your own. By "model compression" I understand techniques like learning distillation, network pruning, quantization etc, not just archiving.
 
 8. **Core ML is not the only way to do machine learning on iOS.** There are [tens of libraries and frameworks](http://alexsosn.github.io/ml/2015/11/05/iOS-ML.html) that are free of these limitations and compatible with iOS.
 
