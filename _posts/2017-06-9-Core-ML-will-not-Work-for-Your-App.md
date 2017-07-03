@@ -15,17 +15,17 @@ Core ML can't take data and can't train models. It can take some types of traine
 <br>![Except Turi, perhaps. To be honest, I have no idea, who they are.](/images/to_coreml_or_not/frameworks.png)
 
 2. **Core ML supports only two types of ML.**
-Namely, [regression and classification](http://pythonhosted.org/coremltools/index.html#conversion-support). While classification is arguably the most popular ML task, there are many others: clustering, ranking, dimensionality reduction, distribution estimation, structure prediction, anomaly and novelty detection, rule mining, denoising, data compression, representation learning, reinforcement learning and so on. All this is behind the scope of Core ML. 
+Namely, [regression and classification](http://pythonhosted.org/coremltools/index.html#conversion-support). While classification is arguably the most popular ML task, there are many others: clustering, ranking, dimensionality reduction, density estimation, structure prediction, anomaly and novelty detection, rule mining, denoising, data compression, representation learning, reinforcement learning and so on. All this is behind the scope of Core ML. 
 <br>![](/images/to_coreml_or_not/coreml.png)
 
 3. **You can not update the model in the runtime.**
 Model lives in your app bundle and Xcode generates a Swift class for it. So it's almost like .xcdatamodel file of CoreData. You can't change model based on user's input. You can't have personalized model.
 
-4. <s>**You can not replace the model without releasing the new version of your app to the AppStore.**
-You can't download the latest version of your model from your server. </s> Looks like there is a workaround: (1) put the model's swift file into the target, (2) compile new model from .mlmodel to .mlmodelc without changing its interface, (3) put those sources to the server, (4) download them from inside of your app, (5) initialize new model using `YourModelClass.init(contentsOf: URL)` method. I've tried it on my test device, and it works, I'm just not sure if it continues working after releasing to the Appstore.
+4. <s><b>You can not replace the model without releasing the new version of your app to the AppStore.</b></s>
+<s>You can't download the latest version of your model from your server.</s> Looks like there is a workaround: (1) put the model's swift file into the target, (2) compile new model from .mlmodel to .mlmodelc without changing its interface, (3) put those sources to the server, (4) download them from inside of your app, (5) initialize new model using `YourModelClass.init(contentsOf: URL)` method. I've tried it on my test device, and it works, I'm just not sure if it continues working after releasing to the Appstore. And this is definetely not the way Core ML is designed to be used.
 
 5. **If your models are proprietary or contain sensitive information, you can't use CoreML.**
-After the compilation, the model file is not encrypted or in other way secured. For instance, Caffe neural network gets converted to several JSON files with layers description and binaries with weights data. Anyone with an archiver can open the .ipa file and inspect the structure of your model.
+After the compilation, the model file is not encrypted or in other way secured. For instance, Caffe neural network gets converted to several JSON files with layers description and binaries with weights data. Anyone with an archiver can open the .ipa file and inspect the structure of your model. Again, you can use a workaround like in 4.
 <br>![](/images/to_coreml_or_not/reverse.png)
 
 6. **Core ML doesn't solve the privacy concerns.**
