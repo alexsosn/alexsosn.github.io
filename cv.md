@@ -8,8 +8,6 @@ permalink: /cv/
 
 # Oleksandr Sosnovshchenko
 
-**I'm Software Engineer && Biologist**
-
 Overall 5 years of experience in software development.Expertise in machine learning, Python, R, mobile development (iOS), natural language processing, deep learning, version management systems, unit tests and test automation, data visualization and analysis, Agile/Scrum.Fast learner, self-starter, adaptive, self-organized, open source contributor. I like to share knowledge.
 
 ## Contact Information
@@ -24,7 +22,7 @@ Overall 5 years of experience in software development.Expertise in machine lear
 
 ### Stealth-mode project in mobile machine learning
 * November 2016 - present.
-* Technologies: Swift, Deep Learning, Machine Learning, Tensor Flow, Metal, Accelerate framefork, computer vision, NLP, Core ML.
+* Technologies: Swift, Deep Learning, Machine Learning, Tensor Flow, Metal, Accelerate framefork, computer vision, NLP, Core ML, emotion recognition, motion types recognition.
 
 ### Software Engineer, [GlobalLogic](https://www.globallogic.com), [Lviv], [Ukraine]
 * March 2016 - March 2017.
@@ -125,7 +123,6 @@ With distinction. [GPA]: [A].
 * [Data mining]:  [Classification], [Regression], [Cluster analysis], Evaluation metrics, [Linear] and [integer optimization], association rule minig, anomaly detection ...
 * [Digital signal processing]\: [face detection in video], [physical activity recognition], ...
 * [Data visualization]\: [word clouds], [heatmaps], [mosaic plots], [ggplot2], [RcolorBrewer], [maps], [igraph], ...
-* Data sources: [twitter API], [XML], [SQL], [HTML], [CSV], [JSON], [BSON] \([MongoDB]\), [spatial], bioinformatical formats, ...
 * Bioinformatical Tools: [PAUP], [PHYLIP], [MrBayes], [PyMOL], [UGENE], [MEGA]5/6, [Cytoscape], [Bioconductor], [BLAST], [HMMER], [ClustalW], [MUSCLE], [Bowtie], [Prosite], [Ensembl genome browser], [KEGG Pathway], [MEME], [MG-RAST], [FASTA], [FASTAQ], [SAM], [BAM], [PDB], [NEXUS] ...
 
 ### Paradigms: 
