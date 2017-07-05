@@ -15,7 +15,7 @@ Core ML can't take data and can't train models. It can take some types of traine
 <br>![Except Turi, perhaps. To be honest, I have no idea, who they are.](/images/to_coreml_or_not/frameworks.png)
 
 2. **Core ML supports only two types of ML.**
-Namely, [regression and classification](http://pythonhosted.org/coremltools/index.html#conversion-support). While classification is arguably the most popular ML task, there are many others: clustering, ranking, dimensionality reduction, density estimation, structure prediction, anomaly and novelty detection, rule mining, denoising, data compression, representation learning, reinforcement learning and so on. All this is behind the scope of Core ML. 
+Namely, [regression and classification](http://pythonhosted.org/coremltools/index.html#conversion-support). While classification is arguably the most popular ML task, there are many others: clustering, ranking, dimensionality reduction, density estimation, structure prediction, anomaly and novelty detection, rule mining, denoising, data compression, representation learning, reinforcement learning and so on. All this is mostly behind the scope of Core ML. 
 <br>![](/images/to_coreml_or_not/coreml.png)
 
 3. **You can not update the model in the runtime.**

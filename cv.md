@@ -4,11 +4,13 @@ title: CV
 permalink: /cv/
 ---
 
-<a href="http://gitprint.com/alexsosn/CV/blob/master/README.md"> Download as PDF </a>
+<a href="/static_content/Alexander_Sosnovshchenko_cv.pdf">Download short version in PDF</a>
 
 # Oleksandr Sosnovshchenko
 
-**I'm programmer && biologist**
+**I'm Software Engineer && Biologist**
+
+Overall 5 years of experience in software development.Expertise in machine learning, Python, R, mobile development (iOS), natural language processing, deep learning, version management systems, unit tests and test automation, data visualization and analysis, Agile/Scrum.Fast learner, self-starter, adaptive, self-organized, open source contributor. I like to share knowledge.
 
 ## Contact Information
 - [Lviv, Ukraine](https://www.google.com/maps?q=lviv)
@@ -22,11 +24,11 @@ permalink: /cv/
 
 ### Stealth-mode project in mobile machine learning
 * November 2016 - present.
-* Technologies: Swift, Deep Learning, Machine Learning, Tensor Flow, Metal, Accelerate framefork, computer vision, NLP.
+* Technologies: Swift, Deep Learning, Machine Learning, Tensor Flow, Metal, Accelerate framefork, computer vision, NLP, Core ML.
 
-### [iOS] Developer, [GlobalLogic](https://www.globallogic.com), [Lviv], [Ukraine]
+### Software Engineer, [GlobalLogic](https://www.globallogic.com), [Lviv], [Ukraine]
 * March 2016 - March 2017.
-* Application in mobile security domain.
+* Several applications in the domain of intelligent mobile threat detection, secure messaging and VoIP. Research and implementation of POCs for network threat detectors.
 	* Man-in-the-middle attacks detection
 	* SSL pinning
 	* Database encryption
@@ -34,19 +36,24 @@ permalink: /cv/
 	* Geolocation
 	* End-to-end encryption
 	* Jailbreak detection
-* **Core Technologies:** [Swift], [iOS], [WebRTC], [Cryptography]
+* **Core Technologies:** [Swift], [iOS], [WebRTC], [Cryptography], security, MongoDB
+
+### Machine Learning Consultant, sparse.tech, [Dnipro], [Ukraine]
+* January 2016 - March 2016
+* Deep neural language model for grammar checking designed with functional programming principles in mind.
+* **Core Technologies:** Torch7, Deep learning, LSTM, convolutional neural networks, Lua, functional programming, machine learning.
 
 ### Developer, Opensource Projects, [Dnipro], [Ukraine]
-* November 2015 - March 2016
-* **Core Technologies:** [Swift], [Machine learning], [C], [C++], [Deep Learning], [Torch 7]
+* November 2015 - January 2016
+* **Core Technologies:** [Swift], [Machine learning], [C], [Deep Learning], [Torch 7]
 
-### [iOS] Developer, [Gigaset Communications](http://www.gigaset.com/de_DE/home.html) (Germany), R&D office at Wrocław, Poland
+### Software Developer, [Gigaset Communications](http://www.gigaset.com/de_DE/home.html) (Germany), R&D office at Wrocław, Poland
 * April 2015 – October 2015
-* Front-end mobile applications for Gigaset smart house platform - [Gigaset Elements](http://gigaset-elements.com/en/) and Gigaset [MobileDock](http://blog.gigaset.com/gigaset-mobiledock/).
-Integration with custom proprietary Bluetooth LE services.
-* **Core technologies:** [Objective-C], [Python], [JavaScript], [Scrum], [Agile], [Kanban], [TDD], [Test automation], [Bluetooth LE].
+* Home automation platform: [Gigaset Elements](http://gigaset-elements.com/en/) and Gigaset [MobileDock](http://blog.gigaset.com/gigaset-mobiledock/).
+Developing mobile applications for Gigaset smart house platform. Integration with proprietary Bluetooth LE services and web-APIs.
+* **Core technologies:** [Objective-C], [Python], [JavaScript], [Scrum], [Agile], [Kanban], [TDD], [Test automation], [Bluetooth LE], Smart home.
 
-### [iOS] Developer, [Ciklum Interactive Solutions](http://www.ciklum.com/), [Dnipro], [Ukraine]
+### iOS Software Engineer, [Ciklum Interactive Solutions](http://www.ciklum.com/), [Dnipro], [Ukraine]
 
 February 2014 – April 2015 
 
