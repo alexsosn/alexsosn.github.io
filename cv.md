@@ -8,6 +8,8 @@ permalink: /cv/
 
 # Oleksandr Sosnovshchenko
 
+<center><p><img class="roundrect-avatar" src="/images/ava.jpg" height="300"></p></center>
+
 Overall 5 years of experience in software development.Expertise in machine learning, Python, R, mobile development (iOS), natural language processing, deep learning, version management systems, unit tests and test automation, data visualization and analysis, Agile/Scrum.Fast learner, self-starter, adaptive, self-organized, open source contributor. I like to share knowledge.
 
 ## Contact Information
