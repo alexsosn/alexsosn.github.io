@@ -13,21 +13,25 @@ permalink: /cv/
 Overall 5 years of experience in software development.Expertise in machine learning, Python, R, mobile development (iOS), natural language processing, deep learning, version management systems, unit tests and test automation, data visualization and analysis, Agile/Scrum.Fast learner, self-starter, adaptive, self-organized, open source contributor. I like to share knowledge.
 
 ## Contact Information
-- [Lviv, Ukraine](https://www.google.com/maps?q=lviv)
+
+- [alex.sosn88@gmail.com](mailto:alexsosn88@gmail.com)
 - [LinkedIn](https://linkedin.com/in/asosnovschenko)
-- [github](https://github.com/alexsosn)
-- [twitter: @StecOverflow](https://twitter.com/StecOverflow)
+- [Twitter: @StecOverflow](https://twitter.com/StecOverflow)
+- [GitHub](https://github.com/alexsosn)
+- Skype: al.sosnovshchenko
+- Wire: @alex12
 
 ## Experience
 
 <center><p><img height="502" src="/images/wordcloud.png"></p></center>
 
-### Stealth-mode project in mobile machine learning
+### Author, Packt 
 * November 2016 - present.
+* "Machine Learning with Swift: Artificial Intelligence for iOS"
 * Technologies: Swift, Deep Learning, Machine Learning, Tensor Flow, Metal, Accelerate framefork, computer vision, NLP, Core ML, emotion recognition, motion types recognition.
 
 ### Software Engineer, [GlobalLogic](https://www.globallogic.com), [Lviv], [Ukraine]
-* March 2016 - March 2017.
+* March 2016 - present.
 * Several applications in the domain of intelligent mobile threat detection, secure messaging and VoIP. Research and implementation of POCs for network threat detectors.
 	* Man-in-the-middle attacks detection
 	* SSL pinning
@@ -96,38 +100,49 @@ Research.
 
 With distinction. [GPA]: [A].
 
-## Natural Languages
+## Human Languages
 
 |Language|Level|
 |--------------|-----------|
-|English |Fluent|
-|Russian|Native speaker|
-|Ukrainian|Native speaker|
-|Polish|Basic|
-|Ancient Greek|Hobby|
+|English | Fluent |
+|Russian| Native speaker |
+|Ukrainian| Native speaker |
+|Polish| Basic |
+|Ancient Greek| Hobby |
 
 
 ## Technical Skills
 
 ### Programming Languages
-* [Swift]
-* [Python]
-* [R]
-* [Objective-C]
-* [Java]
-* [Matlab]/[Octave]
+
+<!--
+| Language | Level |
+|--------------|-----------|
+| Python | Intermediate |
+| R | Intermediate |
+| Swift | Advanced |
+| Objective-C | Advanced |
+| Matlab | Basic |
+-->
+
+* General-purpose: [Python]
+* Data science: [Python], [R],[Matlab]/[Octave]
+* iOS/macOS: [Swift], [Objective-C]
 
 ### Data Science
-* [Machine learning]
-* [Data science]
+
 * Core: [R], [Python], [MongoDB], [Apache Spark], [MapReduce], [time series], [statistics].
-* [NLP]\: [Topic modelling], [sentiment analysis], [NLTK], [tm package]\(text mining\), [bag of words], [stemming], [corpuses], [tokenizers], ... 
+* Data wrangling: Pandas, NumPy, dplyr.
+* [Machine learning]\: scikit-learn, e1071, caret, Core ML.
+	* **Deep Learnign**: Caffe, Keras, TensorFlow, Torch7, convolutional neural networks, recurrent neural networks.
+* [NLP]\: [Topic modelling], [sentiment analysis], [NLTK], Gensym, [tm package]\(text mining\), NSLinguisticTagger, embeddings, language modelling, etc. 
 * [Data mining]:  [Classification], [Regression], [Cluster analysis], Evaluation metrics, [Linear] and [integer optimization], association rule minig, anomaly detection ...
-* [Digital signal processing]\: [face detection in video], [physical activity recognition], ...
-* [Data visualization]\: [word clouds], [heatmaps], [mosaic plots], [ggplot2], [RcolorBrewer], [maps], [igraph], ...
-* Bioinformatical Tools: [PAUP], [PHYLIP], [MrBayes], [PyMOL], [UGENE], [MEGA]5/6, [Cytoscape], [Bioconductor], [BLAST], [HMMER], [ClustalW], [MUSCLE], [Bowtie], [Prosite], [Ensembl genome browser], [KEGG Pathway], [MEME], [MG-RAST], [FASTA], [FASTAQ], [SAM], [BAM], [PDB], [NEXUS] ...
+* [Digital signal processing]\: computer vision, [face detection in video], [physical activity recognition], ...
+* [Data visualization]\: matplotlib, Seaborn, Bokeh, D3.js, [ggplot2], [RcolorBrewer], [igraph], ggmap, graphviz, etc.
+* Bioinformatics: [PAUP], [PHYLIP], [MrBayes], [PyMOL], [UGENE], [MEGA]5/6, [Cytoscape], [Bioconductor], [BLAST], [HMMER], [ClustalW], [MUSCLE], [Bowtie], [Prosite], [Ensembl genome browser], [KEGG Pathway], [MEME], [MG-RAST], [FASTA], [FASTAQ], [SAM], [BAM], [PDB], [NEXUS] ...
 
 ### Paradigms: 
+
 * [OOP]
 * [Functional programming]
 * [MapReduce]
