@@ -7,10 +7,11 @@ excerpt: Curated list of tools and resources to create really smart iOS applicat
 comments: true
 ---
 
-**Last Update: June 5, 2017.**
+**Last Update: June 17, 2017.**
 
 Curated list of resources for iOS developers in following topics: 
 
+- [Core ML](#coreml)
 - [Machine Learning Libraries](#gpmll)
 - [Deep Learning Libraries](#dll)
 	- [Deep Learning: Model Compression](#dlmc)
@@ -44,6 +45,19 @@ Resources are sorted alphabetically or randomly. The order doesn't reflect my pe
 Have fun!
 
 **Pull-requests are welcome [here](https://github.com/alexsosn/iOS_ML)**.
+
+# <a name="coreml"/>Core ML
+
+* [coremltools](https://pypi.python.org/pypi/coremltools) is a Python package. It contains converters from some popular machine learning libraries to the Apple format.
+* [Core ML](https://developer.apple.com/documentation/coreml) is an Apple framework to run inference on device. It is highly optimized to Apple hardware.
+
+Currently CoreML is compatible (partially) with the following machine learning packages:
+
+- [Caffe](http://caffe.berkeleyvision.org)
+- [Keras](https://keras.io/)
+- [libSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)
+- [scikit-learn](http://scikit-learn.org/)
+- [XGBoost](https://xgboost.readthedocs.io/en/latest/)
 
 # <a name="gpmll"/>General-Purpose Machine Learning Libraries
 
@@ -122,6 +136,7 @@ The following algorithms are currently available: Gradient Descent Backpropagati
 * [TensorFlow](http://www.tensorflow.org/) - an open source software library for numerical computation using data flow graphs. Nodes in the graph represent mathematical operations, while the graph edges represent the multidimensional data arrays (tensors) communicated between them. The flexible architecture allows you to deploy computation to one or more CPUs or GPUs in a desktop, server, or mobile device with a single API.
 	* [iOS examples](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/ios_examples)
 	* [another example](https://github.com/hollance/TensorFlow-iOS-Example)
+	* [Perfect-TensorFlow](https://github.com/PerfectlySoft/Perfect-TensorFlow) - TensorFlow binding for [Perfect](http://perfect.org/) (server-side Swift framework). Includes only C TF API.
 * [tiny-dnn](https://github.com/tiny-dnn/tiny-dnn) - header only, dependency-free deep learning framework in C++11.
 	* [iOS example](https://github.com/tiny-dnn/tiny-dnn/tree/d4fff53fa0d01f59eb162de2ec32c652a1f6f467/examples/ios) 
 * [Torch](http://torch.ch/) is a scientific computing framework with wide support for machine learning algorithms.
@@ -149,6 +164,7 @@ The following algorithms are currently available: Gradient Descent Backpropagati
 	* [iOS port](https://github.com/FaceAR/OpenFaceIOS)
 	* [iOS demo](https://github.com/FaceAR/OpenFaceIOS)
 * [trackingjs](http://trackingjs.com/) – Object tracking in JS
+* [Vision](https://developer.apple.com/documentation/vision) is an Apple framework for computer vision.
 
 # <a name="nlp"/>Natural Language Processing
 

@@ -4,29 +4,35 @@ title: CV
 permalink: /cv/
 ---
 
-<a href="http://gitprint.com/alexsosn/CV/blob/master/README.md"> Download as PDF </a>
+<a href="/static_content/Alexander_Sosnovshchenko_cv.pdf">Download short version in PDF</a>
 
 # Oleksandr Sosnovshchenko
 
-**I'm programmer && biologist**
+<center><p><img class="roundrect-avatar" src="/images/ava.jpg" height="300"></p></center>
+
+Overall 5 years of experience in software development.Expertise in machine learning, Python, R, mobile development (iOS), natural language processing, deep learning, version management systems, unit tests and test automation, data visualization and analysis, Agile/Scrum.Fast learner, self-starter, adaptive, self-organized, open source contributor. I like to share knowledge.
 
 ## Contact Information
-- [Lviv, Ukraine](https://www.google.com/maps?q=lviv)
+
+- [alex.sosn88@gmail.com](mailto:alexsosn88@gmail.com)
 - [LinkedIn](https://linkedin.com/in/asosnovschenko)
-- [github](https://github.com/alexsosn)
-- [twitter: @StecOverflow](https://twitter.com/StecOverflow)
+- [Twitter: @StecOverflow](https://twitter.com/StecOverflow)
+- [GitHub](https://github.com/alexsosn)
+- Skype: al.sosnovshchenko
+- Wire: @alex12
 
 ## Experience
 
 <center><p><img height="502" src="/images/wordcloud.png"></p></center>
 
-### Stealth-mode project in mobile machine learning
+### Author, Packt 
 * November 2016 - present.
-* Technologies: Swift, Deep Learning, Machine Learning, Tensor Flow, Metal, Accelerate framefork, computer vision, NLP.
+* "Machine Learning with Swift: Artificial Intelligence for iOS"
+* Technologies: Swift, Deep Learning, Machine Learning, Tensor Flow, Metal, Accelerate framefork, computer vision, NLP, Core ML, emotion recognition, motion types recognition.
 
-### [iOS] Developer, [GlobalLogic](https://www.globallogic.com), [Lviv], [Ukraine]
-* March 2016 - March 2017.
-* Application in mobile security domain.
+### Software Engineer, [GlobalLogic](https://www.globallogic.com), [Lviv], [Ukraine]
+* March 2016 - present.
+* Several applications in the domain of intelligent mobile threat detection, secure messaging and VoIP. Research and implementation of POCs for network threat detectors.
 	* Man-in-the-middle attacks detection
 	* SSL pinning
 	* Database encryption
@@ -34,19 +40,24 @@ permalink: /cv/
 	* Geolocation
 	* End-to-end encryption
 	* Jailbreak detection
-* **Core Technologies:** [Swift], [iOS], [WebRTC], [Cryptography]
+* **Core Technologies:** [Swift], [iOS], [WebRTC], [Cryptography], security, MongoDB
+
+### Machine Learning Consultant, sparse.tech, [Dnipro], [Ukraine]
+* January 2016 - March 2016
+* Deep neural language model for grammar checking designed with functional programming principles in mind.
+* **Core Technologies:** Torch7, Deep learning, LSTM, convolutional neural networks, Lua, functional programming, machine learning.
 
 ### Developer, Opensource Projects, [Dnipro], [Ukraine]
-* November 2015 - March 2016
-* **Core Technologies:** [Swift], [Machine learning], [C], [C++], [Deep Learning], [Torch 7]
+* November 2015 - January 2016
+* **Core Technologies:** [Swift], [Machine learning], [C], [Deep Learning], [Torch 7]
 
-### [iOS] Developer, [Gigaset Communications](http://www.gigaset.com/de_DE/home.html) (Germany), R&D office at Wrocław, Poland
+### Software Developer, [Gigaset Communications](http://www.gigaset.com/de_DE/home.html) (Germany), R&D office at Wrocław, Poland
 * April 2015 – October 2015
-* Front-end mobile applications for Gigaset smart house platform - [Gigaset Elements](http://gigaset-elements.com/en/) and Gigaset [MobileDock](http://blog.gigaset.com/gigaset-mobiledock/).
-Integration with custom proprietary Bluetooth LE services.
-* **Core technologies:** [Objective-C], [Python], [JavaScript], [Scrum], [Agile], [Kanban], [TDD], [Test automation], [Bluetooth LE].
+* Home automation platform: [Gigaset Elements](http://gigaset-elements.com/en/) and Gigaset [MobileDock](http://blog.gigaset.com/gigaset-mobiledock/).
+Developing mobile applications for Gigaset smart house platform. Integration with proprietary Bluetooth LE services and web-APIs.
+* **Core technologies:** [Objective-C], [Python], [JavaScript], [Scrum], [Agile], [Kanban], [TDD], [Test automation], [Bluetooth LE], Smart home.
 
-### [iOS] Developer, [Ciklum Interactive Solutions](http://www.ciklum.com/), [Dnipro], [Ukraine]
+### iOS Software Engineer, [Ciklum Interactive Solutions](http://www.ciklum.com/), [Dnipro], [Ukraine]
 
 February 2014 – April 2015 
 
@@ -89,39 +100,49 @@ Research.
 
 With distinction. [GPA]: [A].
 
-## Natural Languages
+## Human Languages
 
 |Language|Level|
 |--------------|-----------|
-|English |Fluent|
-|Russian|Native speaker|
-|Ukrainian|Native speaker|
-|Polish|Basic|
-|Ancient Greek|Hobby|
+|English | Fluent |
+|Russian| Native speaker |
+|Ukrainian| Native speaker |
+|Polish| Basic |
+|Ancient Greek| Hobby |
 
 
 ## Technical Skills
 
 ### Programming Languages
-* [Swift]
-* [Python]
-* [R]
-* [Objective-C]
-* [Java]
-* [Matlab]/[Octave]
+
+<!--
+| Language | Level |
+|--------------|-----------|
+| Python | Intermediate |
+| R | Intermediate |
+| Swift | Advanced |
+| Objective-C | Advanced |
+| Matlab | Basic |
+-->
+
+* General-purpose: [Python]
+* Data science: [Python], [R],[Matlab]/[Octave]
+* iOS/macOS: [Swift], [Objective-C]
 
 ### Data Science
-* [Machine learning]
-* [Data science]
+
 * Core: [R], [Python], [MongoDB], [Apache Spark], [MapReduce], [time series], [statistics].
-* [NLP]\: [Topic modelling], [sentiment analysis], [NLTK], [tm package]\(text mining\), [bag of words], [stemming], [corpuses], [tokenizers], ... 
+* Data wrangling: Pandas, NumPy, dplyr.
+* [Machine learning]\: scikit-learn, e1071, caret, Core ML.
+	* **Deep Learnign**: Caffe, Keras, TensorFlow, Torch7, convolutional neural networks, recurrent neural networks.
+* [NLP]\: [Topic modelling], [sentiment analysis], [NLTK], Gensym, [tm package]\(text mining\), NSLinguisticTagger, embeddings, language modelling, etc. 
 * [Data mining]:  [Classification], [Regression], [Cluster analysis], Evaluation metrics, [Linear] and [integer optimization], association rule minig, anomaly detection ...
-* [Digital signal processing]\: [face detection in video], [physical activity recognition], ...
-* [Data visualization]\: [word clouds], [heatmaps], [mosaic plots], [ggplot2], [RcolorBrewer], [maps], [igraph], ...
-* Data sources: [twitter API], [XML], [SQL], [HTML], [CSV], [JSON], [BSON] \([MongoDB]\), [spatial], bioinformatical formats, ...
-* Bioinformatical Tools: [PAUP], [PHYLIP], [MrBayes], [PyMOL], [UGENE], [MEGA]5/6, [Cytoscape], [Bioconductor], [BLAST], [HMMER], [ClustalW], [MUSCLE], [Bowtie], [Prosite], [Ensembl genome browser], [KEGG Pathway], [MEME], [MG-RAST], [FASTA], [FASTAQ], [SAM], [BAM], [PDB], [NEXUS] ...
+* [Digital signal processing]\: computer vision, [face detection in video], [physical activity recognition], ...
+* [Data visualization]\: matplotlib, Seaborn, Bokeh, D3.js, [ggplot2], [RcolorBrewer], [igraph], ggmap, graphviz, etc.
+* Bioinformatics: [PAUP], [PHYLIP], [MrBayes], [PyMOL], [UGENE], [MEGA]5/6, [Cytoscape], [Bioconductor], [BLAST], [HMMER], [ClustalW], [MUSCLE], [Bowtie], [Prosite], [Ensembl genome browser], [KEGG Pathway], [MEME], [MG-RAST], [FASTA], [FASTAQ], [SAM], [BAM], [PDB], [NEXUS] ...
 
 ### Paradigms: 
+
 * [OOP]
 * [Functional programming]
 * [MapReduce]
