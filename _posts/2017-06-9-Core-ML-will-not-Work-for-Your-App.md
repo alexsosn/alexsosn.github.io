@@ -7,6 +7,8 @@ excerpt: While the buzz around newly released Apple framework is loud, I want to
 comments: true
 ---
 
+> **Update 09 Aug 2017.** Apple has added a [new API](https://developer.apple.com/documentation/coreml/mlmodel/2921516-compilemodel) for on-device model compilation. It fixes some of the problems described in this post. I will update the post with the more up-to-day info soon, stay tuned.
+
 While the buzz around newly released Apple framework is loud, I want to explain several things, that may not be obvious for those who are new to machine learning (ML).
 
 1. **Core ML is not a machine learning framework.**
