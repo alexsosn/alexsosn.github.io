@@ -7,7 +7,7 @@ excerpt: Curated list of tools and resources to create really smart iOS applicat
 comments: true
 ---
 
-**Last Update: June 17, 2017.**
+**Last Update: September 2, 2017.**
 
 Curated list of resources for iOS developers in following topics: 
 
@@ -32,6 +32,7 @@ Curated list of resources for iOS developers in following topics:
 	- [Bioinformatics (kinda)](#bio)
 	- [Big Data (not really)](#bd)
 - [iOS ML Blogs](#blogs)
+- [Mobile ML books](#books)
 - [GPU Computing Blogs](#gpublogs)
 - [Learn Machine Learning](#learn)
 - [Other Lists](#lists)
@@ -59,58 +60,289 @@ Currently CoreML is compatible (partially) with the following machine learning p
 - [scikit-learn](http://scikit-learn.org/)
 - [XGBoost](https://xgboost.readthedocs.io/en/latest/)
 
+Third-party converters available for:
+- [MXNet](https://github.com/apache/incubator-mxnet/tree/master/tools/coreml)
+
+There are many curated lists of pre-trained neural networks in Core ML format: [\[1\]](https://github.com/SwiftBrain/awesome-CoreML-models), [\[2\]](https://github.com/cocoa-ai/ModelZoo), [\[3\]](https://github.com/likedan/Awesome-CoreML-Models).
+
+Core ML currently doesn't support training models, but still, you can replace model by downloading a new one from a server in runtime. [Here is a demo](https://github.com/zedge/DynamicCoreML) of how to do it. It uses generator part of MNIST GAN as Core ML model.
+
 # <a name="gpmll"/>General-Purpose Machine Learning Libraries
 
+<table>
+  <tr>
+    <th>Library</th>
+    <th>Algorithms</th> 
+    <th>Language</th> 
+    <th>License</th>
+    <th>Code</th>
+    <th>Dependency manager</th>
+  </tr>
+    <tr>
+    <td><a href="https://github.com/KevinCoble/AIToolbox">AIToolbox</a></td>
+    <td>
+<ul>
+<li>Graphs/Trees</li><ul>
+    <li>Depth-first search</li>
+    <li>Breadth-first search</li>
+    <li>Hill-climb search</li>
+    <li>Beam Search</li>
+    <li>Optimal Path search</li></ul>
+<li>Alpha-Beta (game tree)</li>
+<li>Genetic Algorithms</li>
+<li>Constraint Propogation</li>
+<li>Linear Regression</li>
+<li>Non-Linear Regression</li><ul>
+    <li>parameter-delta</li>
+    <li>Gradient-Descent</li>
+    <li>Gauss-Newton</li></ul>
+<li>Logistic Regression</li>
+<li>Neural Networks</li><ul>
+    <li>multiple layers, several non-linearity models</li>
+    <li>on-line and batch training</li>
+    <li>feed-forward or simple recurrent layers can be mixed in one network</li>
+    <li>LSTM network layer implemented - needs more testing</li>
+    <li>gradient check routines</li></ul>
+<li>Support Vector Machine</li>
+<li>K-Means</li>
+<li>Principal Component Analysis</li>
+<li>Markov Decision Process</li><ul>
+    <li>Monte-Carlo (every-visit, and first-visit)</li>
+    <li>SARSA</li></ul>
+<li>Single and Multivariate Gaussians</li>
+<li>Mixture Of Gaussians</li>
+<li>Model validation</li>
+<li>Deep Network</li><ul>
+    <li>Convolution layers</li>
+    <li>Pooling layers</li>
+    <li>Fully-connected NN layers</li></ul>
+</ul>
+</td> 
+    <td>Swift</td> 
+    <td>Apache 2.0</td>
+    <td><a href="https://github.com/KevinCoble/AIToolbox">GitHub</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><a href="http://dlib.net/"><img width=100 src="http://dlib.net/dlib-logo.png"><br>dlib</a></td>
+    <td><ul>
+<li>Deep Learning</li><li>Support Vector Machines</li>
+<li>Reduced-rank methods for large-scale classification and regression</li>
+<li>Relevance vector machines for classification and regression</li><li>A Multiclass SVM</li><li>Structural SVM<li>A large-scale SVM-Rank</li><li>An online kernel RLS regression</li><li>An online SVM classification algorithm</li><li>Semidefinite Metric Learning</li><li>An online kernelized centroid estimator/novelty detector and offline support vector one-class classification</li><li>Clustering algorithms: linear or kernel k-means, Chinese Whispers, and Newman clustering</li><li>Radial Basis Function Networks</li><li>Multi layer perceptrons</li></ul>
+</td> 
+    <td>C++</td> 
+    <td>Boost</td>
+    <td><a href="https://github.com/davisking/dlib">GitHub</a></td>
+    <td><a href="https://cocoapods.org/pods/FANN">Cocoa Pods</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://leenissen.dk/fann/wp/">FANN</a></td>
+    <td><ul>
+<li>Multilayer Artificial Neural Network</li>
+<li>Backpropagation (RPROP, Quickprop, Batch, Incremental)</li>
+<li>Evolving topology training</li>
+</ul></td> 
+    <td>C++</td> 
+    <td>GNU LGPL 2.1</td>
+    <td><a href="https://github.com/libfann/fann">GitHub</a></td>
+    <td><a href="https://cocoapods.org/pods/FANN">Cocoa Pods</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/lemire/lbimproved">lbimproved</a></td>
+    <td>k-nearest neighbors and Dynamic Time Warping</td> 
+    <td>C++</td> 
+    <td>Apache 2.0</td>
+    <td><a href="https://github.com/lemire/lbimproved">GitHub</a> </td>
+    <td> </td>
+  </tr>
+    <tr>
+    <td><a href="https://github.com/gianlucabertani/MAChineLearning">MAChineLearning</a></td>
+    <td>
+    <ul>
+    <li>Neural Networks</li>
+    <ul>
+    <li>Activation functions: Linear, ReLU, Step, sigmoid, TanH</li>
+    <li>Cost functions: Squared error, Cross entropy</li>
+    <li>Backpropagation: Standard, Resilient (a.k.a. RPROP).</li>
+    <li>Training by sample or by batch.</li>
+    </ul>
+    <li>Bag of Words</li>
+    <li>Word Vectors</li></ul>
+    </td> 
+    <td>Objective-C</td> 
+    <td>BSD 3-clause</td>
+    <td><a href="https://github.com/gianlucabertani/MAChineLearning">GitHub</a> </td>
+    <td> </td>
+  </tr>
+    
+  <tr>
+    <td><a href="https://github.com/Somnibyte/MLKit"><img width=100 src="https://github.com/Somnibyte/MLKit/raw/master/MLKitSmallerLogo.png"><br>MLKit</a></td>
+    <td> 
+    <ul>
+    <li>Linear Regression: simple, ridge, polynomial</li>
+    <li>Multi-Layer Perceptron, & Adaline ANN Architectures</li>
+    <li>K-Means Clustering</li>
+    <li>Genetic Algorithms</li>
+    </ul>
+</td> 
+    <td>Swift</td>
+    <td>MIT</td>
+    <td><a href="https://github.com/Somnibyte/MLKit">GitHub</a></td>
+    <td><a href="https://cocoapods.org/pods/MachineLearningKit">Cocoa Pods</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/saniul/Mendel"><img width=100 src="https://github.com/saniul/Mendel/raw/master/logo@2x.png"><br>Mendel</a></td>
+    <td>Evolutionary/genetic algorithms</td> 
+    <td>Swift</td> 
+    <td>?</td>
+    <td><a href="https://github.com/saniul/Mendel">GitHub</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/vincentherrmann/multilinear-math">multilinear-math</a></td>
+    <td><ul>
+    <li>Linear algebra and tensors</li>
+    <li>Principal component analysis</li>
+    <li>Multilinear subspace learning algorithms for dimensionality reduction</li>
+    <li>Linear and logistic regression</li>
+    <li>Stochastic gradient descent</li>
+    <li>Feedforward neural networks</li>
+    <ul>
+    <li>Sigmoid</li>
+    <li>ReLU</li>
+    <li>Softplus activation functions</li>
+    </ul>
+    </ul>
+    </td> 
+    <td>Swift</td> 
+    <td>Apache 2.0</td>
+    <td><a href="https://github.com/vincentherrmann/multilinear-math">GitHub</a> </td>
+    <td>Swift Package Manager</td>
+  </tr>
+  <tr>
+    <td><a href="http://opencv.org/"><img width=100 src="http://opencv.org/assets/theme/logo.png">OpenCV</a></td>
+    <td>
+    <ul>
+    <li>Multi-Layer Perceptrons</li> 
+    <li>Boosted tree classifier</li> 
+    <li>decision tree</li> 
+    <li>Expectation Maximization</li> 
+    <li>K-Nearest Neighbors</li> 
+    <li>Logistic Regression</li> 
+    <li>Bayes classifier</li> 
+    <li>Random forest</li> 
+    <li>Support Vector Machines</li>  
+    <li>Stochastic Gradient Descent SVM classifier</li> 
+    <li>Grid search</li> 
+    <li>Hierarchical k-means</li> 
+    <li>Deep neural networks</li>
+    </ul>
+    </td> 
+    <td>C++</td> 
+    <td>3-clause BSD</td>
+    <td><a href="https://github.com/opencv">GitHub</a> </td>
+    <td> <a href="https://cocoapods.org/pods/OpenCV">Cocoa Pods</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://image.diku.dk/shark/sphinx_pages/build/html/index.html"><img width=100 src="http://image.diku.dk/shark/sphinx_pages/build/html/_static/SharkLogo.png"><br>Shark</a></td>
+    <td>
+    <ul>
+    <li><b>Supervised:</b> 
+    <ul>
+    <li>Linear discriminant analysis (LDA)</li>
+    <li>Fisher–LDA</li>
+    <li>Linear regression</li>
+    <li>SVMs</li>
+    <li>FF NN</li>
+    <li>RNN</li>
+    <li>Radial basis function networks</li>
+    <li>Regularization networks</li>
+    <li>Gaussian processes for regression</li>
+    <li>Iterative nearest neighbor classification and regression</li>
+    <li>Decision trees</li>
+    <li>Random forest</li>
+    </ul>
+    <li><b>Unsupervised:</b> 
+    <ul>
+    <li>PCA</li>
+    <li>Restricted Boltzmann machines</li>
+    <li>Hierarchical clustering</li>
+    <li>Data structures for efficient distance-based clustering</li>
+</ul>
+    <li><b>Optimization:</b> </li>
+    <ul>
+    <li>Evolutionary algorithms</li> 
+    <li>Single-objective optimization (e.g., CMA–ES)</li>
+    <li>Multi-objective optimization</li>
+    <li>Basic linear algebra and optimization algorithms</li>
+    </ul>
+    </td> 
+    <td>C++</td> 
+    <td>GNU LGPL</td>
+    <td><a href="https://github.com/lemire/lbimproved">GitHub</a> </td>
+    <td><a href="https://cocoapods.org/pods/Shark-SDK">Cocoa Pods</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/yconst/YCML"><img width=100 src="https://raw.githubusercontent.com/yconst/YCML/master/Logo.png"><br>YCML</a></td>
+    <td>
+    <ul>
+    <li>Gradient Descent Backpropagation</li> 
+    <li>Resilient Backpropagation (RProp)</li> 
+    <li>Extreme Learning Machines (ELM)</li> 
+    <li>Forward Selection using Orthogonal Least Squares (for RBF Net), also with the PRESS statistic</li> 
+    <li>Binary Restricted Boltzmann Machines (CD & PCD)</li>
+    <li><b>Optimization algorithms</b>: 
+    <ul>
+    <li>Gradient Descent (Single-Objective, Unconstrained)</li> 
+    <li>RProp Gradient Descent (Single-Objective, Unconstrained)</li> 
+    <li>NSGA-II (Multi-Objective, Constrained)</li>
+    </ul>
+    </ul>
+    </td> 
+    <td>Objective-C</td> 
+    <td>GNU GPL 3.0</td>
+    <td><a href="https://github.com/yconst/ycml/">GitHub</a> </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/Kalvar"><img src="https://avatars2.githubusercontent.com/u/1835631?v=4&s=460"><br>Kalvar Lin's libraries</a></td>
+    <td>
+    <ul>
+<li><a href="https://github.com/Kalvar/ios-KRHebbian-Algorithm">ios-KRHebbian-Algorithm</a> - <a href="https://en.wikipedia.org/wiki/Hebbian_theory">Hebbian Theory</a></li>
+<li><a href="https://github.com/Kalvar/ios-KRKmeans-Algorithm">ios-KRKmeans-Algorithm</a> - <a href="https://en.wikipedia.org/wiki/K-means_clustering">K-Means</a> clustering method.</li>
+<li><a href="https://github.com/Kalvar/ios-KRFuzzyCMeans-Algorithm">ios-KRFuzzyCMeans-Algorithm</a> - <a href="https://en.wikipedia.org/wiki/Fuzzy_clustering">Fuzzy C-Means</a>, the fuzzy clustering algorithm.</li>
+<li><a href="https://github.com/Kalvar/ios-KRGreyTheory">ios-KRGreyTheory</a> - <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.678.3477&amp;rep=rep1&amp;type=pdf">Grey Theory</a> / <a href="http://www.mecha.ee.boun.edu.tr/Prof.%20Dr.%20Okyay%20Kaynak%20Publications/c%20Journal%20Papers(appearing%20in%20SCI%20or%20SCIE%20or%20CompuMath)/62.pdf">Grey system theory-based models in time series prediction</a></li>
+<li><a href="https://github.com/Kalvar/ios-KRSVM">ios-KRSVM</a> - Support Vector Machine and SMO.</li>
+<li><a href="https://github.com/Kalvar/ios-KRKNN">ios-KRKNN</a> - kNN implementation.</li>
+<li><a href="https://github.com/Kalvar/ios-KRRBFNN">ios-KRRBFNN</a> - Radial basis function neural network and OLS.</li>
+</ul> 
+</td> 
+    <td>Objective-C</td> 
+    <td>MIT</td>
+    <td><a href="https://github.com/Kalvar">GitHub</a></td>
+    <td></td>
+  </tr>
+</table>
 
-* [FANN](https://cocoapods.org/pods/FANN) - Fast Artifical Neural Network library; an implementation of neural networks.
-* [lbimproved](https://github.com/lemire/lbimproved) - DTW + kNN in C
-* **Shark** - provides libraries for the design of adaptive systems, including methods for linear and nonlinear optimization (e.g., evolutionary and gradient-based algorithms), kernel-based algorithms and neural networks, and other machine learning techniques. [CocoaPods](https://cocoapods.org/pods/Shark-SDK). [Official site](http://image.diku.dk/shark/sphinx_pages/build/html/index.html)
-* [YCML](http://yconst.com/software/ycml/) - A Machine Learning framework for Objective-C and Swift (OS X / iOS). 
-The following algorithms are currently available: Gradient Descent Backpropagation, Resilient Backpropagation (RProp), Extreme Learning Machines (ELM), Forward Selection using Orthogonal Least Squares (for RBF Net), also with the PRESS statistic, Binary Restricted Boltzmann Machines (CD & PCD, Untested!). YCML also contains some optimization algorithms as support for deriving predictive models, although they can be used for any kind of problem: Gradient Descent (Single-Objective, Unconstrained), RProp Gradient Descent (Single-Objective, Unconstrained), NSGA-II (Multi-Objective, Constrained).
-	* [Github](https://github.com/yconst/ycml/). 
-* [Swix](https://github.com/scottsievert/swix) - Swift implementation of NumPy.
-* [Brain](https://github.com/harthur/brain) - Neural networks in JavaScript. Unmaintained.
-* [April-ANN](https://github.com/pakozm/april-ann) - APRIL-ANN toolkit (A Pattern Recognizer In Lua with ANNs). This toolkit incorporates ANN algorithms (as dropout, stacked denoising auto-encoders, convolutional NNs), with other pattern recognition methods as HMMs among others. Additionally, in experimental stage, it is possible to perform automatic differentiation, for advanced ML research. Potentially can be ported for iOS. 
-	* [Official Site](http://pakozm.github.com/april-ann/). 
-* [Recommender](https://github.com/GHamrouni/Recommender) - A C library for product recommendations/suggestions using collaborative filtering (CF).
-* [SNNeuralNet](https://github.com/devongovett/SNNeuralNet) - A neural network library for Objective-C based on brain.js, for iOS and Mac OS X.
-* [MLPNeuralNet](https://github.com/nikolaypavlov/MLPNeuralNet) - Fast multilayer perceptron neural network library for iOS and Mac OS X. MLPNeuralNet predicts new examples by trained neural network. It is built on top of the Apple's Accelerate Framework, using vectorized operations and hardware acceleration if available.
-* [MAChineLearning](https://github.com/gianlucabertani/MAChineLearning) - An Objective-C multilayer perceptron library, with full support for training through backpropagation. Implemented using vDSP and vecLib, it's 20 times faster than its Java equivalent. Includes sample code for use from Swift.
-* [Swift-AI](https://github.com/collinhundley/Swift-AI) - 3-layer NN.
-* [EERegression](https://github.com/erkekin/EERegression/) -  General purpose multivaritate and quadratic Regression library for Swift 2.1 
-* [SwiftSimpleNeuralNetwork](https://github.com/davecom/SwiftSimpleNeuralNetwork) - Feed forward and back propagation.
-* [STEM](https://github.com/abeschneider/stem) - Swift Tensor Engine for Machine-learning
-	* [Documentation](http://stem.readthedocs.io/en/latest/) 
-* [multilinear-math](https://github.com/vincentherrmann/multilinear-math) - Swift library for tensor operations, machine learning and artificial intelligence
-* [MLKit](https://github.com/Somnibyte/MLKit) - regressions, cross-validation, data splitting.
-* [dlib](http://dlib.net/) is a C++ framework which contains 30+ machine learning algorithms and different useful additions. It's relatively easy to port it to iOS: you just need to get rid of GUI and http-related source files.
-* [Mendel](https://github.com/saniul/Mendel) - Genetic algorithms in Swift.
+**Multilayer perceptron implementations:**
 
-* Kalvar Lin's libraries
-	* [ios-BPN-NeuralNetwork](https://github.com/Kalvar/ios-BPN-NeuralNetwork) - 3-layer neural network + back propagation.
-	* [ios-Multi-Perceptron-NeuralNetwork](https://github.com/Kalvar/ios-Multi-Perceptron-NeuralNetwork) - Multi-perceptron neural network based on back propagation NN.
-	* [ios-KRDelta](https://github.com/Kalvar/ios-KRDelta) - [Delta Learning method](https://en.wikipedia.org/wiki/Delta_rule)
-	* [ios-KRHebbian-Algorithm](https://github.com/Kalvar/ios-KRHebbian-Algorithm) - [Hebbian Theory](https://en.wikipedia.org/wiki/Hebbian_theory)
-	* [ios-KRKmeans-Algorithm](https://github.com/Kalvar/ios-KRKmeans-Algorithm) - [K-Means](https://en.wikipedia.org/wiki/K-means_clustering) clustering method.
-	* [ios-KRFuzzyCMeans-Algorithm](https://github.com/Kalvar/ios-KRFuzzyCMeans-Algorithm) - [Fuzzy C-Means](https://en.wikipedia.org/wiki/Fuzzy_clustering), the fuzzy clustering algorithm.
-	* [ios-KRGreyTheory](https://github.com/Kalvar/ios-KRGreyTheory) - [Grey Theory](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.678.3477&rep=rep1&type=pdf) / [Grey system theory-based models in time series prediction](http://www.mecha.ee.boun.edu.tr/Prof.%20Dr.%20Okyay%20Kaynak%20Publications/c%20Journal%20Papers(appearing%20in%20SCI%20or%20SCIE%20or%20CompuMath)/62.pdf)
-	* [ios-KRSVM](https://github.com/Kalvar/ios-KRSVM) - Support Vector Machine and SMO.
-	* [ios-KRKNN](https://github.com/Kalvar/ios-KRKNN) - kNN implementation.
-	* [ios-KRRBFNN](https://github.com/Kalvar/ios-KRRBFNN) - Radial basis function neural network and OLS.
-	* [ios-KRPerceptron](https://github.com/Kalvar/ios-KRPerceptron) - Perceptron method.
-	* [ios-ML-Recommendation-System](https://github.com/Kalvar/ios-ML-Recommendation-System) - demo of a book recommendation system, built using ios-BPN-NeuralNetwork. 
+- [Brain.js](https://github.com/harthur/brain) - JS
+- [SNNeuralNet](https://github.com/devongovett/SNNeuralNet) - Objective-C port of brain.js
+- [MLPNeuralNet](https://github.com/nikolaypavlov/MLPNeuralNet) - Objective-C, Accelerate
+- [Swift-AI](https://github.com/Swift-AI/Swift-AI) - Swift
+- [SwiftSimpleNeuralNetwork](https://github.com/davecom/SwiftSimpleNeuralNetwork) - Swift
+- <a href="https://github.com/Kalvar/ios-BPN-NeuralNetwork">ios-BPN-NeuralNetwork</a> - Objective-C
+- <a href="https://github.com/Kalvar/ios-Multi-Perceptron-NeuralNetwork">ios-Multi-Perceptron-NeuralNetwork</a>- Objective-C
+- <a href="https://github.com/Kalvar/ios-KRDelta">ios-KRDelta</a> - Objective-C
+- [ios-KRPerceptron](https://github.com/Kalvar/ios-KRPerceptron) - Objective-C
 
-# <a name="dll"/>Deep Learning Libraries
+# <a name="dll"/>Deep Learning Libraries: 
 
+### On-Device training and inference
 
-* [Bender](https://github.com/xmartlabs/Bender) - Framework for building fast NNs. Supports TensorFlow models. It uses Metal under the hood.
 * [Birdbrain](https://github.com/jordenhill/Birdbrain) - RNNs and FF NNs on top of Metal and Accelerate. Not ready for production.
-* [BNNS](https://developer.apple.com/reference/accelerate/1912851-bnns) - Apple Basic neural network subroutines (BNNS) is a collection of functions that you use to implement and run neural networks, using previously obtained training data.
-	* [BNNS usage examples](https://github.com/shu223/iOS-10-Sampler) in iOS 10 sampler.
-	* [An example](https://github.com/bignerdranch/bnns-cocoa-example) of a neural network trained by tensorflow and executed using BNNS
 * [BrainCore](https://github.com/aleph7/BrainCore) - simple but fast neural network framework written in Swift. It uses Metal framework to be as fast as possible. ReLU, LSTM, L2 ...
-* [Caffe](http://caffe.berkeleyvision.org) - A deep learning framework developed with cleanliness, readability, and speed in mind.
-[GitHub](https://github.com/BVLC/caffe). [BSD]
+* [Caffe](http://caffe.berkeleyvision.org) - A deep learning framework developed with cleanliness, readability, and speed in mind. [GitHub](https://github.com/BVLC/caffe). [BSD]
 	* [iOS port](https://github.com/aleph7/caffe)
 	* [caffe-mobile](https://github.com/solrex/caffe-mobile) - another iOS port.
 	* C++ examples: [Classifying ImageNet](http://caffe.berkeleyvision.org/gathered/examples/cpp_classification.html), [Extracting Features](http://caffe.berkeleyvision.org/gathered/examples/feature_extraction.html)
@@ -121,18 +353,6 @@ The following algorithms are currently available: Gradient Descent Backpropagati
 * [Convnet.js](http://cs.stanford.edu/people/karpathy/convnetjs/) - ConvNetJS is a Javascript library for training Deep Learning models by [Andrej Karpathy](https://twitter.com/karpathy). [GitHub](https://github.com/karpathy/convnetjs)
 	* [ConvNetSwift](https://github.com/alexsosn/ConvNetSwift) - Swift port [work in progress].
 * [Deep Belief SDK](https://github.com/jetpacapp/DeepBeliefSDK) -  The SDK for Jetpac's iOS Deep Belief image recognition framework
-* [DeepLearningKit](http://deeplearningkit.org/) - Open Source Deep Learning Framework from Memkite for Apple's tvOS, iOS and OS X.
-* [Espresso](https://github.com/codinfox/espresso) - A minimal high performance parallel neural network framework running on iOS.
-* [Forge](https://github.com/hollance/Forge) - A neural network toolkit for Metal.
-* [KSJNeuralNetwork](https://github.com/woffle/KSJNeuralNetwork) - A Neural Network Inference Library Built atop BNNS and MPS
-	* [Converter for Torch models](https://github.com/woffle/torch2ios)
-* [MetalPerformanceShaders](https://developer.apple.com/reference/metalperformanceshaders) - CNNs on GPU from Apple.
-	* [MetalCNNWeights](https://github.com/kakugawa/MetalCNNWeights) - a Python script to convert Inception v3 for MPS.
-	* [MPSCNNfeeder](https://github.com/kazoo-kmt/MPSCNNfeeder) - Keras to MPS models conversion.
-* [MXNet](http://mxnet.readthedocs.org/en/latest/) - MXNet is a deep learning framework designed for both efficiency and flexibility.
-	* [Deploying mxnet to smartphone](https://github.com/dmlc/mxnet/tree/master/amalgamation)
-* [NNPACK](https://github.com/Maratyszcza/NNPACK) - Acceleration package for neural networks on multi-core CPUs. Prisma [uses](http://prisma-ai.com/libraries.html) this library in the mobile app.
-* [Quantized-CNN](https://github.com/jiaxiang-wu/quantized-cnn) - compressed convolutional neural networks for Mobile Devices
 * [TensorFlow](http://www.tensorflow.org/) - an open source software library for numerical computation using data flow graphs. Nodes in the graph represent mathematical operations, while the graph edges represent the multidimensional data arrays (tensors) communicated between them. The flexible architecture allows you to deploy computation to one or more CPUs or GPUs in a desktop, server, or mobile device with a single API.
 	* [iOS examples](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/ios_examples)
 	* [another example](https://github.com/hollance/TensorFlow-iOS-Example)
@@ -143,11 +363,40 @@ The following algorithms are currently available: Gradient Descent Backpropagati
 	* [Torch4iOS](https://github.com/jhondge/torch4ios)
 	* [Torch-iOS](https://github.com/clementfarabet/torch-ios)
 
-### <a name="dlmc"/>Deep Learning: Model Compression
+### Deep Learning: Running pre-trained models on device
 
+These libraries doesn't support training, so you need to pre-train models in some ML framework.
+
+* [Bender](https://github.com/xmartlabs/Bender) - Framework for building fast NNs. Supports TensorFlow models. It uses Metal under the hood.
+* [Core ML](#coreml)
+* [DeepLearningKit](http://deeplearningkit.org/) - Open Source Deep Learning Framework from Memkite for Apple's tvOS, iOS and OS X.
+* [Espresso](https://github.com/codinfox/espresso) - A minimal high performance parallel neural network framework running on iOS.
+* [Forge](https://github.com/hollance/Forge) - A neural network toolkit for Metal.
+* [Keras.js](https://transcranial.github.io/keras-js/#/) - run [Keras](https://keras.io/) models in a web view. 
+* [KSJNeuralNetwork](https://github.com/woffle/KSJNeuralNetwork) - A Neural Network Inference Library Built atop BNNS and MPS
+	* [Converter for Torch models](https://github.com/woffle/torch2ios)
+* [MXNet](https://mxnet.incubator.apache.org/) - MXNet is a deep learning framework designed for both efficiency and flexibility.
+	* [Deploying pre-trained mxnet model to a smartphone](https://mxnet.incubator.apache.org/how_to/smart_device.html)
+* [Quantized-CNN](https://github.com/jiaxiang-wu/quantized-cnn) - compressed convolutional neural networks for Mobile Devices
+* [WebDNN](https://mil-tokyo.github.io/webdnn/) - You can run deep learning model in a web view if you want. Three modes: WebGPU acceleration, WebAssembly acceleration and pure JS (on CPU). No training, inference only.
+
+### Deep Learning: Low-level routines libraries
+
+* [BNNS](https://developer.apple.com/reference/accelerate/1912851-bnns) - Apple Basic neural network subroutines (BNNS) is a collection of functions that you use to implement and run neural networks, using previously obtained training data.
+	* [BNNS usage examples](https://github.com/shu223/iOS-10-Sampler) in iOS 10 sampler.
+	* [An example](https://github.com/bignerdranch/bnns-cocoa-example) of a neural network trained by tensorflow and executed using BNNS
+* [MetalPerformanceShaders](https://developer.apple.com/reference/metalperformanceshaders) - CNNs on GPU from Apple.
+	* [MetalCNNWeights](https://github.com/kakugawa/MetalCNNWeights) - a Python script to convert Inception v3 for MPS.
+	* [MPSCNNfeeder](https://github.com/kazoo-kmt/MPSCNNfeeder) - Keras to MPS models conversion.
+* [NNPACK](https://github.com/Maratyszcza/NNPACK) - Acceleration package for neural networks on multi-core CPUs. Prisma [uses](http://prisma-ai.com/libraries.html) this library in the mobile app.
+* [STEM](https://github.com/abeschneider/stem) - Swift Tensor Engine for Machine-learning
+	* [Documentation](http://stem.readthedocs.io/en/latest/) 
+
+### <a name="dlmc"/>Deep Learning: Model Compression
 
 * TensorFlow implementation of [knowledge distilling](https://github.com/chengshengchan/model_compression) method
 * [MobileNet-Caffe](https://github.com/shicai/MobileNet-Caffe) - Caffe Implementation of Google's MobileNets
+* [keras-surgeon](https://github.com/BenWhetton/keras-surgeon) - Pruning for trained Keras models.
 
 
 # <a name="cv"/>Computer Vision
@@ -256,6 +505,7 @@ for apps, devices, and web
 * [Benchmark of BNNS vs. MPS](https://github.com/hollance/BNNS-vs-MPSCNN)
 * [VGGNet on Metal](https://github.com/hollance/VGGNet-Metal)
 * A [Sudoku Solver](https://github.com/waitingcheung/deep-sudoku-solver) that leverages TensorFlow and iOS BNNS for deep learning.
+* [HED CoreML Implementation](https://github.com/s1ddok/HED-CoreML) is a demo with tutorial on how to use Holistically-Nested Edge Detection on iOS with CoreML and Swift
 
 ### Traditional Computer Vision
 
@@ -294,6 +544,7 @@ for apps, devices, and web
 * [NDArray](https://github.com/t-ae/ndarray) - Float library for Swift, accelerated with Accelerate Framework.
 * [Swift-MathEagle](https://github.com/rugheid/Swift-MathEagle) - A general math framework to make using math easy. Currently supports function solving and optimisation, matrix and vector algebra, complex numbers, big int, big frac, big rational, graphs and general handy extensions and functions.
 * [SwiftNum](https://github.com/donald-pinckney/SwiftNum) - linear algebra, fft, gradient descent, conjugate GD, plotting.
+* [Swix](https://github.com/scottsievert/swix) - Swift implementation of NumPy and OpenCV wrapper.
 * [Surge](https://github.com/mattt/Surge) from Mattt
 * [Upsurge](https://github.com/aleph7/Upsurge) - generic tensors, matrices on top of Accelerate. A fork of Surge.
 * [YCMatrix](https://github.com/yconst/YCMatrix) - A flexible Matrix library for Objective-C and Swift (OS X / iOS)
@@ -354,14 +605,16 @@ for apps, devices, and web
 
 ### Regular mobile ML
 
-* **[Pete Warden's blog](https://petewarden.com/)**
-	* [How to Quantize Neural Networks with TensorFlow](https://petewarden.com/2016/05/03/how-to-quantize-neural-networks-with-tensorflow/)
 * **[The "Machine, think!" blog](http://machinethink.net/blog/) by Matthijs Hollemans**
 	* [The “hello world” of neural networks](http://matthijshollemans.com/2016/08/24/neural-network-hello-world/) - Swift and BNNS
 	* [Convolutional neural networks on the iPhone with VGGNet](http://matthijshollemans.com/2016/08/30/vggnet-convolutional-neural-network-iphone/)
+* **[Pete Warden's blog](https://petewarden.com/)**
+	* [How to Quantize Neural Networks with TensorFlow](https://petewarden.com/2016/05/03/how-to-quantize-neural-networks-with-tensorflow/)
 
 ### Accidental mobile ML
 
+* **[Google research blog](https://research.googleblog.com)**
+* **[Apple Machine Learning Journal](https://machinelearning.apple.com/)**
 * **[Invasive Code](https://www.invasivecode.com/weblog/) blog**
 	* [Machine Learning for iOS](https://www.invasivecode.com/weblog/machine-learning-swift-ios/)
 	* [Convolutional Neural Networks in iOS 10 and macOS](https://www.invasivecode.com/weblog/convolutional-neural-networks-ios-10-macos-sierra/)
@@ -403,17 +656,31 @@ Metal & Swift](https://realm.io/news/swift-summit-simon-gladman-metal/) - a vide
 * [Metal by Example blog](http://metalbyexample.com/)
 * [objc-io article on Metal](https://www.objc.io/issues/18-games/metal/)
 
+# <a name="books"/>Mobile ML Books
+
+* <b>Building Mobile Applications with TensorFlow</b> by Pete Warden. [Book page](http://www.oreilly.com/data/free/building-mobile-applications-with-tensorflow.csp). <b>[Free download](http://www.oreilly.com/data/free/building-mobile-applications-with-tensorflow.csp?download=true)</b>
+
 # <a name="learn"/>Learn Machine Learning
 
+<i>Please note that in this section, I'm not trying to collect another list of ALL machine learning study resources, but only composing a list of things that I found useful.</i>
 
-* [Courserra course](https://www.coursera.org/learn/machine-learning/home/info) on machine learning from [Andrew Ng](https://twitter.com/AndrewYNg).
+* <b>[Academic Torrents](http://academictorrents.com/browse.php?cat=7)</b>. Sometimes awesome courses or datasets got deleted from their sites. But this doesn't mean, that they are lost.
+* [Arxiv Sanity Preserver](http://www.arxiv-sanity.com/) - a tool to keep pace with the ML research progress.
+
+## Free Books
+
+* Immersive Linear Algebra [interactive book](http://immersivemath.com/ila/index.html) by J. Ström, K. Åström, and T. Akenine-Möller.
+* ["Natural Language Processing with Python"](http://www.nltk.org/book/) - free online book.
+* [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/) - An intro to Bayesian methods and probabilistic programming from a computation/understanding-first, mathematics-second point of view. 
+* ["Deep learning"](http://www.deeplearningbook.org/) - the book by Ian Goodfellow and Yoshua Bengio and Aaron Courville
+
+## Free Courses
+
+* [Original Machine Learning Coursera course](https://www.coursera.org/learn/machine-learning/home/info) by Andrew Ng.
 * [Machine learning playlist on Youtube](https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA).
 * Free online interactive book ["Neural Networks and Deep Learning"](http://neuralnetworksanddeeplearning.com/).
-* ["Natural Language Processing with Python"](http://www.nltk.org/book/) - free online book.
 * [Heterogeneous Parallel Programming](https://www.coursera.org/course/hetero) course.
-* Immersive Linear Algebra [interactive book](http://immersivemath.com/ila/index.html) by J. Ström, K. Åström, and T. Akenine-Möller.
 * [Deep Learning for Perception](https://computing.ece.vt.edu/~f15ece6504/) by Virginia Tech, Electrical and Computer Engineering, Fall 2015: ECE 6504
-* [Probabilistic Programming & Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/) - An intro to Bayesian methods and probabilistic programming from a computation/understanding-first, mathematics-second point of view. 
 * [CAP 5415 - Computer Vision](http://crcv.ucf.edu/courses/CAP5415/Fall2014/index.php) by UCF
 * [CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/syllabus.html) by Stanford
 * [Machine Learning: 2014-2015 Course materials](https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/) by Oxford
@@ -421,7 +688,7 @@ Metal & Swift](https://realm.io/news/swift-summit-simon-gladman-metal/) - a vide
 * [Deep Learning for Natural Language Processing \(without Magic\)](http://nlp.stanford.edu/courses/NAACL2013/)
 * [Videos](http://videolectures.net/deeplearning2015_montreal/) from Deep Learning Summer School, Montreal 2015.
 * [Deep Learning Summer School, Montreal 2016](http://videolectures.net/deeplearning2016_montreal/)
-* ["Deep learning"](http://www.deeplearningbook.org/) - the book by Ian Goodfellow and Yoshua Bengio and Aaron Courville
+
 
 # <a name="lists"/>Other Lists
 
@@ -433,3 +700,4 @@ Metal & Swift](https://realm.io/news/swift-summit-simon-gladman-metal/) - a vide
 * [Speech and language processing](https://github.com/edobashira/speech-language-processing)
 * [The Rise of Chat Bots:](https://stanfy.com/blog/the-rise-of-chat-bots-useful-links-articles-libraries-and-platforms/)  Useful Links, Articles, Libraries and Platforms by Pavlo Bashmakov.
 * [Awesome Machine Learning for Cyber Security](https://github.com/jivoi/awesome-ml-for-cybersecurity)
+
