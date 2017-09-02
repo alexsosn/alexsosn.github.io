@@ -68,87 +68,118 @@ There are many curated lists of pre-trained neural networks in Core ML format: [
 Core ML currently doesn't support training models, but still, you can replace model by downloading a new one from a server in runtime. [Here is a demo](https://github.com/zedge/DynamicCoreML) of how to do it. It uses generator part of MNIST GAN as Core ML model.
 
 # <a name="gpmll"/>General-Purpose Machine Learning Libraries
-
-<table>
+<p></p>
+<table rules="groups">
+<thead> 
   <tr>
-    <th>Library</th>
-    <th>Algorithms</th> 
-    <th>Language</th> 
-    <th>License</th>
-    <th>Code</th>
-    <th>Dependency manager</th>
+    <th style="text-align: center">Library</th>
+    <th style="text-align: center">Algorithms</th> 
+    <th style="text-align: center">Language</th> 
+    <th style="text-align: center">License</th>
+    <th style="text-align: center">Code</th>
+    <th style="text-align: center">Dependency manager</th>
   </tr>
+</thead> 
     <tr>
-    <td><a href="https://github.com/KevinCoble/AIToolbox">AIToolbox</a></td>
+    <td style="text-align: center"><a href="https://github.com/KevinCoble/AIToolbox">AIToolbox</a></td>
     <td>
 <ul>
-<li>Graphs/Trees</li><ul>
+<li>Graphs/Trees</li>
+<ul>
     <li>Depth-first search</li>
     <li>Breadth-first search</li>
     <li>Hill-climb search</li>
     <li>Beam Search</li>
-    <li>Optimal Path search</li></ul>
+    <li>Optimal Path search</li>
+</ul>
 <li>Alpha-Beta (game tree)</li>
 <li>Genetic Algorithms</li>
 <li>Constraint Propogation</li>
 <li>Linear Regression</li>
-<li>Non-Linear Regression</li><ul>
+<li>Non-Linear Regression</li>
+<ul>
     <li>parameter-delta</li>
     <li>Gradient-Descent</li>
-    <li>Gauss-Newton</li></ul>
+    <li>Gauss-Newton</li>
+</ul>
 <li>Logistic Regression</li>
-<li>Neural Networks</li><ul>
+<li>Neural Networks</li>
+<ul>
     <li>multiple layers, several non-linearity models</li>
     <li>on-line and batch training</li>
     <li>feed-forward or simple recurrent layers can be mixed in one network</li>
     <li>LSTM network layer implemented - needs more testing</li>
-    <li>gradient check routines</li></ul>
+    <li>gradient check routines</li>
+</ul>
 <li>Support Vector Machine</li>
 <li>K-Means</li>
 <li>Principal Component Analysis</li>
-<li>Markov Decision Process</li><ul>
+<li>Markov Decision Process</li>
+<ul>
     <li>Monte-Carlo (every-visit, and first-visit)</li>
-    <li>SARSA</li></ul>
+    <li>SARSA</li>
+</ul>
 <li>Single and Multivariate Gaussians</li>
 <li>Mixture Of Gaussians</li>
 <li>Model validation</li>
-<li>Deep Network</li><ul>
+<li>Deep Network</li>
+<ul>
     <li>Convolution layers</li>
     <li>Pooling layers</li>
-    <li>Fully-connected NN layers</li></ul>
+    <li>Fully-connected NN layers</li>
+</ul>
 </ul>
 </td> 
     <td>Swift</td> 
     <td>Apache 2.0</td>
-    <td><a href="https://github.com/KevinCoble/AIToolbox">GitHub</a> </td>
+    <td><p><a href="https://github.com/KevinCoble/AIToolbox">GitHub</a></p></td>
     <td> </td>
   </tr>
   <tr>
-    <td><a href="http://dlib.net/"><img width=100 src="http://dlib.net/dlib-logo.png"><br>dlib</a></td>
-    <td><ul>
-<li>Deep Learning</li><li>Support Vector Machines</li>
-<li>Reduced-rank methods for large-scale classification and regression</li>
-<li>Relevance vector machines for classification and regression</li><li>A Multiclass SVM</li><li>Structural SVM<li>A large-scale SVM-Rank</li><li>An online kernel RLS regression</li><li>An online SVM classification algorithm</li><li>Semidefinite Metric Learning</li><li>An online kernelized centroid estimator/novelty detector and offline support vector one-class classification</li><li>Clustering algorithms: linear or kernel k-means, Chinese Whispers, and Newman clustering</li><li>Radial Basis Function Networks</li><li>Multi layer perceptrons</li></ul>
-</td> 
+    <td style="text-align: center">
+        <a href="http://dlib.net/">
+            <img src="http://dlib.net/dlib-logo.png" width="100" >
+        <br>dlib</a>
+    </td>
+        <td>
+            <ul>
+            <li>Deep Learning</li>
+            <li>Support Vector Machines</li>
+            <li>Reduced-rank methods for large-scale classification and regression</li>
+            <li>Relevance vector machines for classification and regression</li>
+            <li>A Multiclass SVM</li>
+            <li>Structural SVM</li>
+            <li>A large-scale SVM-Rank</li>
+            <li>An online kernel RLS regression</li>
+            <li>An online SVM classification algorithm</li>
+            <li>Semidefinite Metric Learning</li>
+            <li>An online kernelized centroid estimator/novelty detector and offline support vector one-class classification</li>
+            <li>Clustering algorithms: linear or kernel k-means, Chinese Whispers, and Newman clustering</li>
+            <li>Radial Basis Function Networks</li>
+            <li>Multi layer perceptrons</li>
+            </ul>
+    </td> 
     <td>C++</td> 
     <td>Boost</td>
     <td><a href="https://github.com/davisking/dlib">GitHub</a></td>
-    <td><a href="https://cocoapods.org/pods/FANN">Cocoa Pods</a></td>
+    <td></td>
   </tr>
   <tr>
-    <td><a href="http://leenissen.dk/fann/wp/">FANN</a></td>
-    <td><ul>
+    <td style="text-align: center"><a href="http://leenissen.dk/fann/wp/">FANN</a></td>
+    <td>
+        <ul>
 <li>Multilayer Artificial Neural Network</li>
 <li>Backpropagation (RPROP, Quickprop, Batch, Incremental)</li>
 <li>Evolving topology training</li>
-</ul></td> 
+</ul>
+</td> 
     <td>C++</td> 
     <td>GNU LGPL 2.1</td>
     <td><a href="https://github.com/libfann/fann">GitHub</a></td>
     <td><a href="https://cocoapods.org/pods/FANN">Cocoa Pods</a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/lemire/lbimproved">lbimproved</a></td>
+    <td style="text-align: center"><a href="https://github.com/lemire/lbimproved">lbimproved</a></td>
     <td>k-nearest neighbors and Dynamic Time Warping</td> 
     <td>C++</td> 
     <td>Apache 2.0</td>
@@ -156,7 +187,7 @@ Core ML currently doesn't support training models, but still, you can replace mo
     <td> </td>
   </tr>
     <tr>
-    <td><a href="https://github.com/gianlucabertani/MAChineLearning">MAChineLearning</a></td>
+    <td style="text-align: center"><a href="https://github.com/gianlucabertani/MAChineLearning">MAChineLearning</a></td>
     <td>
     <ul>
     <li>Neural Networks</li>
@@ -167,16 +198,16 @@ Core ML currently doesn't support training models, but still, you can replace mo
     <li>Training by sample or by batch.</li>
     </ul>
     <li>Bag of Words</li>
-    <li>Word Vectors</li></ul>
+    <li>Word Vectors</li>
+</ul>
     </td> 
     <td>Objective-C</td> 
     <td>BSD 3-clause</td>
     <td><a href="https://github.com/gianlucabertani/MAChineLearning">GitHub</a> </td>
     <td> </td>
   </tr>
-    
   <tr>
-    <td><a href="https://github.com/Somnibyte/MLKit"><img width=100 src="https://github.com/Somnibyte/MLKit/raw/master/MLKitSmallerLogo.png"><br>MLKit</a></td>
+    <td style="text-align: center"><a href="https://github.com/Somnibyte/MLKit"><img width="100" src="https://github.com/Somnibyte/MLKit/raw/master/MLKitSmallerLogo.png"><br>MLKit</a></td>
     <td> 
     <ul>
     <li>Linear Regression: simple, ridge, polynomial</li>
@@ -191,7 +222,7 @@ Core ML currently doesn't support training models, but still, you can replace mo
     <td><a href="https://cocoapods.org/pods/MachineLearningKit">Cocoa Pods</a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/saniul/Mendel"><img width=100 src="https://github.com/saniul/Mendel/raw/master/logo@2x.png"><br>Mendel</a></td>
+    <td style="text-align: center"><a href="https://github.com/saniul/Mendel"><img width="100" src="https://github.com/saniul/Mendel/raw/master/logo@2x.png"><br>Mendel</a></td>
     <td>Evolutionary/genetic algorithms</td> 
     <td>Swift</td> 
     <td>?</td>
@@ -199,8 +230,9 @@ Core ML currently doesn't support training models, but still, you can replace mo
     <td></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/vincentherrmann/multilinear-math">multilinear-math</a></td>
-    <td><ul>
+    <td style="text-align: center"><a href="https://github.com/vincentherrmann/multilinear-math">multilinear-math</a></td>
+    <td>
+        <ul>
     <li>Linear algebra and tensors</li>
     <li>Principal component analysis</li>
     <li>Multilinear subspace learning algorithms for dimensionality reduction</li>
@@ -220,7 +252,7 @@ Core ML currently doesn't support training models, but still, you can replace mo
     <td>Swift Package Manager</td>
   </tr>
   <tr>
-    <td><a href="http://opencv.org/"><img width=100 src="http://opencv.org/assets/theme/logo.png">OpenCV</a></td>
+    <td style="text-align: center"><a href="http://opencv.org/"><img width="100" src="http://opencv.org/assets/theme/logo.png">OpenCV</a></td>
     <td>
     <ul>
     <li>Multi-Layer Perceptrons</li> 
@@ -244,10 +276,10 @@ Core ML currently doesn't support training models, but still, you can replace mo
     <td> <a href="https://cocoapods.org/pods/OpenCV">Cocoa Pods</a></td>
   </tr>
   <tr>
-    <td><a href="http://image.diku.dk/shark/sphinx_pages/build/html/index.html"><img width=100 src="http://image.diku.dk/shark/sphinx_pages/build/html/_static/SharkLogo.png"><br>Shark</a></td>
+    <td style="text-align: center"><a href="http://image.diku.dk/shark/sphinx_pages/build/html/index.html"><img width="100" src="http://image.diku.dk/shark/sphinx_pages/build/html/_static/SharkLogo.png"><br>Shark</a></td>
     <td>
     <ul>
-    <li><b>Supervised:</b> 
+    <li><b>Supervised:</b> </li>
     <ul>
     <li>Linear discriminant analysis (LDA)</li>
     <li>Fisher–LDA</li>
@@ -262,7 +294,7 @@ Core ML currently doesn't support training models, but still, you can replace mo
     <li>Decision trees</li>
     <li>Random forest</li>
     </ul>
-    <li><b>Unsupervised:</b> 
+    <li><b>Unsupervised:</b> </li>
     <ul>
     <li>PCA</li>
     <li>Restricted Boltzmann machines</li>
@@ -275,7 +307,8 @@ Core ML currently doesn't support training models, but still, you can replace mo
     <li>Single-objective optimization (e.g., CMA–ES)</li>
     <li>Multi-objective optimization</li>
     <li>Basic linear algebra and optimization algorithms</li>
-    </ul>
+    </ul> 
+</ul>
     </td> 
     <td>C++</td> 
     <td>GNU LGPL</td>
@@ -283,7 +316,7 @@ Core ML currently doesn't support training models, but still, you can replace mo
     <td><a href="https://cocoapods.org/pods/Shark-SDK">Cocoa Pods</a></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/yconst/YCML"><img width=100 src="https://raw.githubusercontent.com/yconst/YCML/master/Logo.png"><br>YCML</a></td>
+    <td style="text-align: center"><a href="https://github.com/yconst/YCML"><img width="100" src="https://raw.githubusercontent.com/yconst/YCML/master/Logo.png"><br>YCML</a></td>
     <td>
     <ul>
     <li>Gradient Descent Backpropagation</li> 
@@ -291,7 +324,7 @@ Core ML currently doesn't support training models, but still, you can replace mo
     <li>Extreme Learning Machines (ELM)</li> 
     <li>Forward Selection using Orthogonal Least Squares (for RBF Net), also with the PRESS statistic</li> 
     <li>Binary Restricted Boltzmann Machines (CD & PCD)</li>
-    <li><b>Optimization algorithms</b>: 
+    <li><b>Optimization algorithms</b>: </li>
     <ul>
     <li>Gradient Descent (Single-Objective, Unconstrained)</li> 
     <li>RProp Gradient Descent (Single-Objective, Unconstrained)</li> 
@@ -305,24 +338,25 @@ Core ML currently doesn't support training models, but still, you can replace mo
     <td> </td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Kalvar"><img src="https://avatars2.githubusercontent.com/u/1835631?v=4&s=460"><br>Kalvar Lin's libraries</a></td>
+    <td style="text-align: center"><a href="https://github.com/Kalvar"><img width="100" src="https://avatars2.githubusercontent.com/u/1835631?v=4&s=460"><br>Kalvar Lin's libraries</a></td>
     <td>
     <ul>
-<li><a href="https://github.com/Kalvar/ios-KRHebbian-Algorithm">ios-KRHebbian-Algorithm</a> - <a href="https://en.wikipedia.org/wiki/Hebbian_theory">Hebbian Theory</a></li>
-<li><a href="https://github.com/Kalvar/ios-KRKmeans-Algorithm">ios-KRKmeans-Algorithm</a> - <a href="https://en.wikipedia.org/wiki/K-means_clustering">K-Means</a> clustering method.</li>
-<li><a href="https://github.com/Kalvar/ios-KRFuzzyCMeans-Algorithm">ios-KRFuzzyCMeans-Algorithm</a> - <a href="https://en.wikipedia.org/wiki/Fuzzy_clustering">Fuzzy C-Means</a>, the fuzzy clustering algorithm.</li>
-<li><a href="https://github.com/Kalvar/ios-KRGreyTheory">ios-KRGreyTheory</a> - <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.678.3477&amp;rep=rep1&amp;type=pdf">Grey Theory</a> / <a href="http://www.mecha.ee.boun.edu.tr/Prof.%20Dr.%20Okyay%20Kaynak%20Publications/c%20Journal%20Papers(appearing%20in%20SCI%20or%20SCIE%20or%20CompuMath)/62.pdf">Grey system theory-based models in time series prediction</a></li>
-<li><a href="https://github.com/Kalvar/ios-KRSVM">ios-KRSVM</a> - Support Vector Machine and SMO.</li>
-<li><a href="https://github.com/Kalvar/ios-KRKNN">ios-KRKNN</a> - kNN implementation.</li>
-<li><a href="https://github.com/Kalvar/ios-KRRBFNN">ios-KRRBFNN</a> - Radial basis function neural network and OLS.</li>
-</ul> 
-</td> 
+	<li><a href="https://github.com/Kalvar/ios-KRHebbian-Algorithm">ios-KRHebbian-Algorithm</a> - <a href="https://en.wikipedia.org/wiki/Hebbian_theory">Hebbian Theory</a></li>
+	<li><a href="https://github.com/Kalvar/ios-KRKmeans-Algorithm">ios-KRKmeans-Algorithm</a> - <a href="https://en.wikipedia.org/wiki/K-means_clustering">K-Means</a> clustering method.</li>
+	<li><a href="https://github.com/Kalvar/ios-KRFuzzyCMeans-Algorithm">ios-KRFuzzyCMeans-Algorithm</a> - <a href="https://en.wikipedia.org/wiki/Fuzzy_clustering">Fuzzy C-Means</a>, the fuzzy clustering algorithm.</li>
+	<li><a href="https://github.com/Kalvar/ios-KRGreyTheory">ios-KRGreyTheory</a> - <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.678.3477&amp;rep=rep1&amp;type=pdf">Grey Theory</a> / <a href="http://www.mecha.ee.boun.edu.tr/Prof.%20Dr.%20Okyay%20Kaynak%20Publications/c%20Journal%20Papers(appearing%20in%20SCI%20or%20SCIE%20or%20CompuMath)/62.pdf">Grey system theory-based models in time series prediction</a></li>
+	<li><a href="https://github.com/Kalvar/ios-KRSVM">ios-KRSVM</a> - Support Vector Machine and SMO.</li>
+	<li><a href="https://github.com/Kalvar/ios-KRKNN">ios-KRKNN</a> - kNN implementation.</li>
+	<li><a href="https://github.com/Kalvar/ios-KRRBFNN">ios-KRRBFNN</a> - Radial basis function neural network and OLS.</li>
+	</ul> 
+	</td> 
     <td>Objective-C</td> 
     <td>MIT</td>
     <td><a href="https://github.com/Kalvar">GitHub</a></td>
     <td></td>
   </tr>
 </table>
+
 
 **Multilayer perceptron implementations:**
 
