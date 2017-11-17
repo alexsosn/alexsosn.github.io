@@ -14,7 +14,7 @@ Overall 5 years of experience in software development.Expertise in machine lear
 
 ## Contact Information
 
-- [alex.sosn88@gmail.com](mailto:alexsosn88@gmail.com)
+- [alex.sosn88@gmail.com](mailto:alex.sosn88@gmail.com)
 - [LinkedIn](https://linkedin.com/in/asosnovschenko)
 - [Twitter: @StecOverflow](https://twitter.com/StecOverflow)
 - [GitHub](https://github.com/alexsosn)
@@ -25,14 +25,22 @@ Overall 5 years of experience in software development.Expertise in machine lear
 
 <center><p><img height="502" src="/images/wordcloud.png"></p></center>
 
+### Data scientist, [GlobalLogic](https://www.globallogic.com), [Lviv], [Ukraine]
+* November 2017 - present.
+* The project in the field of video analytics.
+	* Machine learning
+	* Computer vision
+	* Anomaly detection
+* **Core Technologies:** TensorFlow, Scikit-learn, computer vision, deep learning, python.
+
 ### Author, Packt 
 * November 2016 - present.
 * "Machine Learning with Swift: Artificial Intelligence for iOS"
 * Technologies: Swift, Deep Learning, Machine Learning, Tensor Flow, Metal, Accelerate framefork, computer vision, NLP, Core ML, emotion recognition, motion types recognition.
 
 ### Software Engineer, [GlobalLogic](https://www.globallogic.com), [Lviv], [Ukraine]
-* March 2016 - present.
-* Several applications in the domain of intelligent mobile threat detection, secure messaging and VoIP. Research and implementation of POCs for network threat detectors.
+* March 2016 - October 2017.
+* Several applications in the domain of intelligent mobile threat detection, mobile banking, secure messaging and VoIP. Research and implementation of POCs for network threat detectors, computer vision for mobile application.
 	* Man-in-the-middle attacks detection
 	* SSL pinning
 	* Database encryption
@@ -40,7 +48,8 @@ Overall 5 years of experience in software development.Expertise in machine lear
 	* Geolocation
 	* End-to-end encryption
 	* Jailbreak detection
-* **Core Technologies:** [Swift], [iOS], [WebRTC], [Cryptography], security, MongoDB
+	* Fraud detection using machine learning
+* **Core Technologies:** [Swift], [iOS], [WebRTC], [Cryptography], security, MongoDB, Core ML, computer vision, Keras, deep learnign, xgboost, sklearn.
 
 ### Machine Learning Consultant, sparse.tech, [Dnipro], [Ukraine]
 * January 2016 - March 2016
