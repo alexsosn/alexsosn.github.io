@@ -6,13 +6,24 @@ permalink: /cv/
 
 <a href="/static_content/Alexander_Sosnovshchenko_cv.pdf">Download short version in PDF</a>
 
-# Oleksandr Sosnovshchenko
+**Jump to**
+
+- [About me](#info)
+- [Contact](#contact)
+- [Experience](#exp)
+- [Education](#edu)
+- [Languages](#lang)
+- [Skills](#skills)
+- [Projects](#projects)
+- [Courses](#courses)
+
+# <a name="info"/>Alex Sosnovshchenko
 
 <center><p><img class="roundrect-avatar" src="/images/ava.jpg" height="300"></p></center>
 
 Overall 5 years of experience in software development.Expertise in machine learning, Python, R, mobile development (iOS), natural language processing, deep learning, version management systems, unit tests and test automation, data visualization and analysis, Agile/Scrum.Fast learner, self-starter, adaptive, self-organized, open source contributor. I like to share knowledge.
 
-## Contact Information
+## <a name="contact"/>Contact Information
 
 - [alex.sosn88@gmail.com](mailto:alexsosn88@gmail.com)
 - [LinkedIn](https://linkedin.com/in/asosnovschenko)
@@ -21,14 +32,14 @@ Overall 5 years of experience in software development.Expertise in machine lear
 - Skype: al.sosnovshchenko
 - Wire: @alex12
 
-## Experience
+## <a name="exp"/>Experience
 
 <center><p><img height="502" src="/images/wordcloud.png"></p></center>
 
 ### Author, Packt 
 * November 2016 - present.
 * "Machine Learning with Swift: Artificial Intelligence for iOS"
-* Technologies: Swift, Deep Learning, Machine Learning, Tensor Flow, Metal, Accelerate framefork, computer vision, NLP, Core ML, emotion recognition, motion types recognition.
+* Technologies: Swift, Deep Learning, Machine Learning, Tensor Flow, Metal, Accelerate framework, computer vision, NLP, Core ML, emotion recognition, motion types recognition.
 
 ### Software Engineer, [GlobalLogic](https://www.globallogic.com), [Lviv], [Ukraine]
 * March 2016 - present.
@@ -90,7 +101,7 @@ Research.
 * Caring for aquatic organisms.
 * Skills gained: [positive mood], [self motivation], [proactivity], [fishkeeping], [crocodile keeping].
 
-## Education
+## <a name="edu"/>Education
 
 ### Master of Science, [Biology], [Dnipropetrovsk National University], 2009-2010 
 * Thesis title “Seasonal dynamics of some hydrochemical characteristics of Zaporozhye water reservoir”.
@@ -100,18 +111,18 @@ Research.
 
 With distinction. [GPA]: [A].
 
-## Human Languages
+## <a name="lang"/>Human Languages
 
-|Language|Level|
-|--------------|-----------|
-|English | Fluent |
-|Russian| Native speaker |
-|Ukrainian| Native speaker |
-|Polish| Basic |
-|Ancient Greek| Hobby |
+||Language| |Level|
+|:--------------:|-----------|-----------|-----------|
+| <font size="+2">🇺🇸</font> |English | | Fluent |
+| <font size="+2">🇷🇺</font> |Русский язык | Russian| Native speaker |
+| <font size="+2">🇺🇦</font> |Українська мова | Ukrainian| Native speaker |
+| <font size="+2">🇵🇱</font> |Język polski | Polish| Basic |
+| <font size="+2">🦉</font> |ἀρχαῖα ἑλληνική γλῶσσα | Ancient Greek| Hobby |
 
 
-## Technical Skills
+## <a name="skills"/>Technical Skills
 
 ### Programming Languages
 
@@ -163,7 +174,27 @@ With distinction. [GPA]: [A].
 * [Jira], [Confluence]
 * [XCode], [IPython], [RStudio], [PyCharm]
 
-## Projects
+## <a name="projects"/>Projects
+
+### [Mobile banking app]()
+Fraud detection 
+
+### [Intelligent mobile threat detection]()
+Man in the middle attacks detection
+
+### [Book on AI for iOS]()
+
+### [Association bot]()
+
+### [Swift port of ConvnetJS]()
+
+### [Motion recognition with ML]()
+
+### [Emotion recognition]()
+
+### [Language modelling]()
+
+### [Word2Vec for iOS]()
 
 ### [MobileDock](http://blog.gigaset.com/gigaset-mobiledock/)
 
@@ -266,7 +297,7 @@ Internal app for biotech corporation.
 	* Video player integration.
 * **Technologies:** [UIKit].
 
-## Courses
+## <a name="courses"/>Courses
 
 * Machine learning winter school 2017 at [UCU](http://cs.ucu.edu.ua/en/), Computer Vision track.
 * Data science summer school 2016 at [UCU](http://cs.ucu.edu.ua/en/).
