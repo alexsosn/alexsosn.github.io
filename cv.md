@@ -8,9 +8,14 @@ permalink: /cv/
 
 # Oleksandr Sosnovshchenko
 
-<center><p><img class="roundrect-avatar" src="/images/ava.jpg" height="300"></p></center>
+<div style="text-align: center;"><p><img class="roundrect-avatar" src="/images/ava.jpg" height="300"></p></div>
 
-Overall 5 years of experience in software development.Expertise in machine learning, Python, R, mobile development (iOS), natural language processing, deep learning, version management systems, unit tests and test automation, data visualization and analysis, Agile/Scrum.Fast learner, self-starter, adaptive, self-organized, open source contributor. I like to share knowledge.
+Software engineering since 2012. 
+Machine learning, data science, and neural networks since 2014. 
+MS in biology.
+Currently, building AI engine for analytical chemistry.
+
+Machine Learning, Computer Vision, NLP, Deep Learning, Data Science, cheminformatics, bioinformatics.
 
 ## Contact Information
 
@@ -18,27 +23,28 @@ Overall 5 years of experience in software development.Expertise in machine lear
 - [LinkedIn](https://linkedin.com/in/asosnovschenko)
 - [Twitter: @StecOverflow](https://twitter.com/StecOverflow)
 - [GitHub](https://github.com/alexsosn)
-- Skype: al.sosnovshchenko
-- Wire: @alex12
 
 ## Experience
 
-<center><p><img height="502" src="/images/wordcloud.png"></p></center>
+<div style="text-align: center;"><p><img height="502" src="/images/wordcloud.png"></p></div>
 
-### Data scientist, [GlobalLogic](https://www.globallogic.com), [Lviv], [Ukraine]
-* November 2017 - present.
+### R&D Software Engineer, [Agilent Technologies](https://www.agilent.com/), Espoo, Finland
+* February 2022 - Present
+* ML for chemical data analysis.
+
+### ML Software Engineer, [Virtual Control](https://www.virtualcontrol.com/), Hong Kong, remotely
+* August 2018 - February 2022
+* ML for computer vision and chromatography.
+
+### Data scientist, [GlobalLogic](https://www.globallogic.com), Lviv, Ukraine
+* November 2017 - July 2018.
 * The project in the field of video analytics.
 	* Machine learning
 	* Computer vision
 	* Anomaly detection
 * **Core Technologies:** TensorFlow, Scikit-learn, computer vision, deep learning, python.
 
-### Author, Packt 
-* November 2016 - present.
-* "Machine Learning with Swift: Artificial Intelligence for iOS"
-* Technologies: Swift, Deep Learning, Machine Learning, Tensor Flow, Metal, Accelerate framefork, computer vision, NLP, Core ML, emotion recognition, motion types recognition.
-
-### Software Engineer, [GlobalLogic](https://www.globallogic.com), [Lviv], [Ukraine]
+### Software Engineer, [GlobalLogic](https://www.globallogic.com), Lviv, Ukraine
 * March 2016 - October 2017.
 * Several applications in the domain of intelligent mobile threat detection, mobile banking, secure messaging and VoIP. Research and implementation of POCs for network threat detectors, computer vision for mobile application.
 	* Man-in-the-middle attacks detection
@@ -51,12 +57,12 @@ Overall 5 years of experience in software development.Expertise in machine lear
 	* Fraud detection using machine learning
 * **Core Technologies:** [Swift], [iOS], [WebRTC], [Cryptography], security, MongoDB, Core ML, computer vision, Keras, deep learnign, xgboost, sklearn.
 
-### Machine Learning Consultant, sparse.tech, [Dnipro], [Ukraine]
+### Machine Learning Consultant, sparse.tech, Dnipro, Ukraine
 * January 2016 - March 2016
 * Deep neural language model for grammar checking designed with functional programming principles in mind.
 * **Core Technologies:** Torch7, Deep learning, LSTM, convolutional neural networks, Lua, functional programming, machine learning.
 
-### Developer, Opensource Projects, [Dnipro], [Ukraine]
+### Software Developer, Opensource Projects, Dnipro, Ukraine
 * November 2015 - January 2016
 * **Core Technologies:** [Swift], [Machine learning], [C], [Deep Learning], [Torch 7]
 
@@ -66,11 +72,11 @@ Overall 5 years of experience in software development.Expertise in machine lear
 Developing mobile applications for Gigaset smart house platform. Integration with proprietary Bluetooth LE services and web-APIs.
 * **Core technologies:** [Objective-C], [Python], [JavaScript], [Scrum], [Agile], [Kanban], [TDD], [Test automation], [Bluetooth LE], Smart home.
 
-### iOS Software Engineer, [Ciklum Interactive Solutions](http://www.ciklum.com/), [Dnipro], [Ukraine]
+### iOS Software Engineer, [Ciklum Interactive Solutions](http://www.ciklum.com/), Dnipro, Ukraine
 
 February 2014 – April 2015 
 
-Healthcare application for [Babylon Partners](www.babylonhealth.com) (London)
+Healthcare application for [Babylon Partners](www.babylonhealth.com) (London, UK)
 
 * [Machine learning] system prototyping ([Python]/[R]/[OpenCV]).
 * Custom algorithm for heart rate detection via camera.
@@ -83,29 +89,29 @@ Research.
 * Submitting to app store.
 * **Core technologies:**  [Objective-C], [Python], [Java], [TDD], [Appium].
 
-### Software Developer, [Yalantis](yalantis.com), [Dnipro], 2012-2014 
+### Software Developer, [Yalantis](yalantis.com), Dnipro, 2012-2014 
 * Mobile application development. I took part in development of 10 apps, 5 of them is for medical or biotech companies. Other includes mobile media platform, social media, games and productivity apps.
 * **Core technologies:** [Objective-C], [OS X], [Git], [SVN].
 
-### Teacher, Secondary school, [Dnipro], 2010-2012
+### Teacher, Secondary school, Dnipro, 2010-2012
 * [Biology] and [chemistry] teacher in 5 – 10 grades.
 * **Skills gained:** [pedagogy], [psychology], [public speaking], [scientific demonstrations].
 
-### Engineer, [Dnipropetrovsk National University], Research Institute of [Biology], [Dnipro], April 2010 – June 2010 
+### Engineer, [Dnipropetrovsk National University], Research Institute of biology, Dnipro, April 2010 – June 2010 
 * [Data analysis]. Skills gained: [MS Excel], [MS Access].
 * Subjects: [water quality] monitoring, [bacteriological water analysis].
 
-### Junior Laboratory Assistant, [Dnipropetrovsk National University], Department of Biology, Aquarium, [Dnipro], October 2008 – January 2009 
+### Junior Laboratory Assistant, [Dnipropetrovsk National University], Department of Biology, Aquarium, Dnipro, October 2008 – January 2009 
 * Caring for aquatic organisms.
 * Skills gained: [positive mood], [self motivation], [proactivity], [fishkeeping], [crocodile keeping].
 
 ## Education
 
-### Master of Science, [Biology], [Dnipropetrovsk National University], 2009-2010 
+### Master of Science in Biology, [Dnipropetrovsk National University], 2009-2010 
 * Thesis title “Seasonal dynamics of some hydrochemical characteristics of Zaporozhye water reservoir”.
 * With distinction. [GPA]: [A].
 
-### Bachelor of Science, [Biology], [Dnipropetrovsk National University], 2005-2009 
+### Bachelor of Science in Biology, [Dnipropetrovsk National University], 2005-2009 
 
 With distinction. [GPA]: [A].
 
@@ -362,7 +368,6 @@ Internal app for biotech corporation.
 [Design Patterns]: https://en.wikipedia.org/wiki/Design_Patterns
 [Digital signal processing]: https://en.wikipedia.org/wiki/Digital_signal_processing
 [Dnipropetrovsk National University]: https://en.wikipedia.org/wiki/Oles_Honchar_Dnipropetrovsk_National_University
-[Dnipro]: https://en.wikipedia.org/wiki/Dnipropetrovsk
 [Dropbox SDK]: https://www.dropbox.com/developers/core/sdks/ios
 [DSP]: https://en.wikipedia.org/wiki/Digital_signal_processing
 [Ensembl genome browser]: http://www.ensembl.org/index.html
@@ -407,7 +412,6 @@ Internal app for biotech corporation.
 [LinkedIn API]: https://developer.linkedin.com/
 [Linux]: https://en.wikipedia.org/wiki/Linux
 [LLVM]: http://llvm.org/
-[Lviv]: https://en.wikipedia.org/wiki/Lviv
 [Machine learning]: https://en.wikipedia.org/wiki/Machine_learning
 [MapReduce]: https://en.wikipedia.org/wiki/MapReduce
 [maps]: http://rmaps.github.io/
@@ -479,7 +483,6 @@ Internal app for biotech corporation.
 [UGENE]: http://ugene.net/en/
 [UIAutomation]: https://developer.apple.com/library/ios/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/UsingtheAutomationInstrument/UsingtheAutomationInstrument.html
 [UIKit]: https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIKit_Framework/
-[Ukraine]: https://en.wikipedia.org/wiki/Ukraine
 [UrbanAirsip]: http://urbanairship.com/
 [Validic]: http://validic.com/
 [Visualization]: https://en.wikipedia.org/wiki/Data_visualization
