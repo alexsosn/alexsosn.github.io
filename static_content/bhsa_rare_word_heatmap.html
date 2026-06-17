@@ -3,18 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>BHSA Rare Word Heatmap</title>
+<title>Hebrew Bible Dark Corners: Rare Words by Chapter</title>
 <style>
 :root {
-  color-scheme: light;
-  --bg: #f7f8fa;
-  --panel: #ffffff;
-  --ink: #1f2933;
-  --muted: #617282;
-  --grid: #d6dde5;
-  --empty: #eef1f4;
-  --accent: #0f766e;
-  --hot: #b42318;
+  color-scheme: dark;
+  --bg: #0e1116;
+  --panel: #151a21;
+  --panel-2: #1c222b;
+  --ink: #e8edf2;
+  --muted: #9aa7b5;
+  --grid: #2b3440;
+  --empty: #202731;
+  --accent: #22a699;
+  --hot: #f97316;
 }
 * { box-sizing: border-box; }
 body {
@@ -96,7 +97,7 @@ h1 {
   height: 24px;
   border: 1px solid var(--grid);
   border-radius: 999px;
-  background: #e5eaf0;
+  background: #293240;
   transition: background 120ms ease;
 }
 .switch-track::after {
@@ -119,7 +120,7 @@ h1 {
   transform: translateX(20px);
 }
 .switch-control input:focus-visible + .switch-track {
-  outline: 2px solid #111827;
+  outline: 2px solid #f8fafc;
   outline-offset: 2px;
 }
 .legend {
@@ -134,7 +135,7 @@ h1 {
   height: 12px;
   border-radius: 999px;
   border: 1px solid var(--grid);
-  background: linear-gradient(90deg, #f7fcf5, #c7e9c0, #41ab5d, #fd8d3c, #b42318);
+  background: linear-gradient(90deg, #16251f, #255f4e, #22a699, #f59e0b, #f97316);
 }
 .viz-wrap {
   background: var(--panel);
@@ -142,7 +143,7 @@ h1 {
   border-radius: 8px;
   padding: 14px;
   overflow: auto;
-  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.28);
 }
 svg {
   display: block;
@@ -157,7 +158,7 @@ svg {
   font-size: 12px;
 }
 .cell {
-  stroke: rgba(255, 255, 255, 0.82);
+  stroke: rgba(14, 17, 22, 0.82);
   stroke-width: 1;
 }
 .cell.empty {
@@ -166,11 +167,11 @@ svg {
 }
 .cell:focus {
   outline: none;
-  stroke: #111827;
+  stroke: #f8fafc;
   stroke-width: 2;
 }
 .cell.selected {
-  stroke: #111827;
+  stroke: #f8fafc;
   stroke-width: 2;
 }
 .details-panel {
@@ -217,7 +218,7 @@ svg {
   position: sticky;
   top: 0;
   z-index: 1;
-  background: #f9fafb;
+  background: var(--panel-2);
   color: var(--muted);
   font-size: 12px;
   font-weight: 650;
@@ -267,7 +268,7 @@ svg {
   pointer-events: none;
   opacity: 0;
   transform: translate(-50%, -110%);
-  background: #101828;
+  background: #05070a;
   color: #fff;
   border-radius: 6px;
   padding: 8px 10px;
@@ -371,14 +372,14 @@ function interpolate(c1, c2, t) {
   return rgbToHex([lerp(a[0], b[0], t), lerp(a[1], b[1], t), lerp(a[2], b[2], t)]);
 }
 function colorFor(value, max) {
-  if (!value) return "#f7fcf5";
+  if (!value) return "#16251f";
   const t = Math.max(0, Math.min(1, value / max));
   const stops = [
-    [0.00, "#f7fcf5"],
-    [0.28, "#c7e9c0"],
-    [0.55, "#41ab5d"],
-    [0.78, "#fd8d3c"],
-    [1.00, "#b42318"],
+    [0.00, "#16251f"],
+    [0.28, "#255f4e"],
+    [0.55, "#22a699"],
+    [0.78, "#f59e0b"],
+    [1.00, "#f97316"],
   ];
   for (let i = 1; i < stops.length; i++) {
     if (t <= stops[i][0]) {
@@ -484,16 +485,14 @@ function renderDetails() {
     <tr>
       <td class="hebrew">${escapeHtml(word.hebrew || word.lexUtf8 || word.lex)}</td>
       <td>${escapeHtml(word.gloss || "—")}</td>
-      <td>${escapeHtml(word.lex)}</td>
       <td class="num">${word.freq.toLocaleString()}</td>
       <td class="num">${word.chapterCount.toLocaleString()}</td>
     </tr>`).join("");
   wordList.innerHTML = `<table class="word-table">
     <thead>
       <tr>
-        <th style="width: 22%">Hebrew</th>
+        <th style="width: 30%">Hebrew</th>
         <th>Gloss</th>
-        <th style="width: 22%">Lexeme</th>
         <th class="num" style="width: 88px">BHSA freq</th>
         <th class="num" style="width: 84px">Chapter</th>
       </tr>
